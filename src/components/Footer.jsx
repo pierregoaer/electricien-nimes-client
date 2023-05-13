@@ -55,7 +55,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={styles.footerCopyrights}>
-                    © {new Date().getFullYear()}, Eletricien Nîmes
+                    © {new Date().getFullYear()}, Electricien Nîmes
                 </div>
             </div>
         </section>

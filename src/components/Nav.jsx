@@ -50,7 +50,7 @@ export default function Nav() {
                         <Link to={'/blog'} onClick={handleDisplayMobileNav}>Blog</Link>
                     </li>
                 </ul>
-                <Link to={'/contact'} className={`btn-primary ${styles.navMainNavigationContact}`}>Demander un devis</Link>
+                <Link to={'/contact'} className={`btn-primary ${styles.navMainNavigationContact}`}>Devis gratuit</Link>
                 <div className={styles.navMobileNavIconContainer} data-visible={mobileNavVisible}
                      onClick={handleDisplayMobileNav}>
                     <div className={`${styles.mobileNavIcon} ${styles.menuTop} ${mobileNavVisible ? `${styles.active}` : ""}`}></div>

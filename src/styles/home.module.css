@@ -265,12 +265,8 @@
 
 /* -- Mobile responsiveness -- */
 @media (max-width: 1000px) {
-    .testimonials-main {
-        flex-direction: column;
-        text-align: center;
-    }
-
     .home-faq-main {
+        flex-direction: column;
         text-align: center;
     }
 

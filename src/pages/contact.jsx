@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import * as styles from '../styles/contact.module.css'
 import Layout from "../components/Layout";
 
@@ -13,10 +13,6 @@ export default function Contact() {
         budget: '',
         message: '',
     });
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
 
     function handleChange(event) {
         const target = event.target;

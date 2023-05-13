@@ -57,7 +57,7 @@
 }
 
 @media (max-width: 1000px) {
-    .home-faq-main {
+    .testimonials-main {
         flex-direction: column;
     }
 }

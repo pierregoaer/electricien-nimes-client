@@ -12,7 +12,7 @@ export default function HomeHero() {
                         services électriques adaptés à vos besoins. Vous êtes au bon endroit pour un service de qualité,
                         réalisé par des électriciens à Nîmes compétents et passionnés. Ensemble, faisons de vos projets
                         électriques une réussite !</p>
-                    <Link to={'/contact'} className={`btn-primary`}>Contactez-Nous</Link>
+                    <Link to={'/contact'} className={`btn-primary`}>Obtenir un devis gratuitement</Link>
                 </div>
                 <div className={styles.heroImage}>
                     <img
