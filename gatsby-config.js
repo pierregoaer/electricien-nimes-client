@@ -17,16 +17,10 @@ module.exports = {
                 policy: [{userAgent: '*', allow: '/'}]
             }
         },
-        `gatsby-plugin-sitemap`,
         {
-            resolve: `gatsby-plugin-google-gtag`,
+            resolve: "gatsby-plugin-sitemap",
             options: {
-                trackingIds: [
-                    'G-H628T5N3LJ',
-                ],
-                pluginConfig: {
-                    head: true,
-                },
+                output: `/sitemap.xml`,
             },
         },
     ],
