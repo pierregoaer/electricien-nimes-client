@@ -23,5 +23,16 @@ module.exports = {
                 output: `/sitemap.xml`,
             },
         },
+        {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+                trackingIds: [
+                    'G-H628T5N3LJ',
+                ],
+                pluginConfig: {
+                    head: true,
+                },
+            },
+        },
     ],
 }
