@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
+import Layout from "../components/Layout";
 
 export function Head() {
     return (
@@ -17,8 +18,10 @@ export function Head() {
 
 export default function Page404() {
     return (
-        <div>
-            Oops cette page n'éxiste pas!
-        </div>
+        <Layout>
+            <div>
+                Cette page n'existe pas!
+            </div>
+        </Layout>
     );
 }
