@@ -5,6 +5,7 @@ exports.sourceNodes = async ({actions, createNodeId, createContentDigest}) => {
     const {createNode} = actions
 
     const res = await fetch('https://api.electricien-nimes.com/get-blogs');
+    // const res = await fetch('http://127.0.0.1:5000/get-blogs');
     const blogs = await res.json()
 
     blogs.forEach(blog => {

@@ -1,13 +1,25 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Link} from "gatsby";
 
 import * as styles from '../../styles/support-page.module.css'
 import Layout from "../../components/Layout";
 
+export function Head() {
+    return (
+        <>
+            <title>Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes</title>
+            <meta name="description" content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
+            <meta name="robots" content="index, follow"/>
+            <meta property="og:url" content="https://eletricien-nimes.com/services/depannage-et-maintenance"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes"/>
+            <meta property="og:description" content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
+            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/depannage-electrique.png"/>
+        </>
+    )
+}
+
 export default function Maintenance() {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
     return (
         <Layout>
             <main className="support-page-service-container">

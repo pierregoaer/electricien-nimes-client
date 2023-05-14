@@ -1,13 +1,25 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Link} from "gatsby";
 import Layout from "../../components/Layout";
 
 import * as styles from '../../styles/silo-page.module.css'
 
+export function Head() {
+    return (
+        <>
+            <title>Réalisations Électriques à Nîmes | Projets Résidentiels, Commerciaux & Industriels</title>
+            <meta name="description" content="Consultez nos réalisations électriques à Nîmes pour les projets résidentiels, commerciaux et industriels. Bénéficiez de notre expertise pour vos projets."/>
+            <meta name="robots" content="index, follow"/>
+            <meta property="og:url" content="https://eletricien-nimes.com/realisations"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Réalisations Électriques à Nîmes | Projets Résidentiels, Commerciaux & Industriels"/>
+            <meta property="og:description" content="Consultez nos réalisations électriques à Nîmes pour les projets résidentiels, commerciaux et industriels. Bénéficiez de notre expertise pour vos projets."/>
+            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849344/website-lending/electricien-nimes/meta-images/projet-electrique.png"/>
+        </>
+    )
+}
+
 export default function Realizations() {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
     return (
         <Layout>
             <main>

@@ -1,13 +1,25 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Link} from "gatsby";
 
 import * as styles from '../../styles/support-page.module.css'
 import Layout from "../../components/Layout";
 
+export function Head() {
+    return (
+        <>
+            <title>Installation Électrique à Nîmes | Résidentiel, Commercial & Industriel</title>
+            <meta name="description" content="Confiez-nous vos installations électriques à Nîmes pour des projets résidentiels, commerciaux et industriels. Expertise et qualité garanties."/>
+            <meta name="robots" content="index, follow"/>
+            <meta property="og:url" content="https://eletricien-nimes.com/services/installation"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Installation Électrique à Nîmes | Résidentiel, Commercial & Industriel"/>
+            <meta property="og:description" content="Confiez-nous vos installations électriques à Nîmes pour des projets résidentiels, commerciaux et industriels. Expertise et qualité garanties."/>
+            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849343/website-lending/electricien-nimes/meta-images/installation-electrique.png"/>
+        </>
+    )
+}
+
 export default function Installation() {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
     return (
         <Layout>
             <main className="support-page-service-container">

@@ -1,13 +1,25 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Link} from "gatsby";
 
 import * as styles from '../../styles/support-page.module.css'
 import Layout from "../../components/Layout";
 
+export function Head() {
+    return (
+        <>
+            <title>Rénovation Électrique à Nîmes | Mise aux Normes & Réparation</title>
+            <meta name="description" content="Besoin d'une rénovation électrique à Nîmes ? Nos experts assurent mise aux normes, remplacement de tableaux et réparation de circuits. Contactez-nous !"/>
+            <meta name="robots" content="index, follow"/>
+            <meta property="og:url" content="https://eletricien-nimes.com/services/renovation-et-mise-aux-normes"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Rénovation Électrique à Nîmes | Mise aux Normes & Réparation"/>
+            <meta property="og:description" content="Besoin d'une rénovation électrique à Nîmes ? Nos experts assurent mise aux normes, remplacement de tableaux et réparation de circuits. Contactez-nous !"/>
+            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849343/website-lending/electricien-nimes/meta-images/renovation-electrique.png"/>
+        </>
+    )
+}
+
 export default function Renovation() {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
     return (
         <Layout>
             <main className="support-page-service-container">

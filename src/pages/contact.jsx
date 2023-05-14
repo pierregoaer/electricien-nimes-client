@@ -2,6 +2,20 @@ import React, {useState} from 'react';
 import * as styles from '../styles/contact.module.css'
 import Layout from "../components/Layout";
 
+export function Head() {
+    return (
+        <>
+            <title>Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit</title>
+            <meta name="description" content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
+            <meta name="robots" content="index, follow"/>
+            <meta property="og:url" content="https://eletricien-nimes.com/contact"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit"/>
+            <meta property="og:description" content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
+            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/contact.png"/>
+        </>
+    )
+}
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -24,7 +38,6 @@ export default function Contact() {
             };
         });
     }
-    console.log(formData)
 
 
     function handleSubmit(event) {
@@ -113,8 +126,8 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactFormField}>
                             <label htmlFor="service">Quel type de service recherchez-vous ?*</label>
-                            <select name="service" onChange={handleChange}>
-                                <option value="" selected disabled>Veuillez choisir une option</option>
+                            <select name="service" defaultValue={'DEFAULT'} onChange={handleChange}>
+                                <option value="DEFAULT" disabled>Veuillez choisir une option</option>
                                 <option value="Installation">Installation</option>
                                 <option value="Rénovation et mise aux normes">Rénovation et mise aux normes</option>
                                 <option value="Rénovation et mise aux normes">Dépannage et maintenance</option>
@@ -125,8 +138,8 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactFormField}>
                             <label htmlFor="timeframe">Quel est votre délais souhaité ?*</label>
-                            <select name="timeframe" onChange={handleChange}>
-                                <option value="" selected disabled>Veuillez choisir une option</option>
+                            <select name="timeframe" defaultValue={'DEFAULT'} onChange={handleChange}>
+                                <option value="DEFAULT" disabled>Veuillez choisir une option</option>
                                 <option value="Moins de 3 mois">Moins de 3 mois</option>
                                 <option value="De 3 à 6 mois">De 3 à 6 mois</option>
                                 <option value="Plus de 6 mois">Plus de 6 mois</option>
@@ -134,8 +147,8 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactFormField}>
                             <label htmlFor="budget">Quel est votre budget ?*</label>
-                            <select name="budget" onChange={handleChange}>
-                                <option value="" selected disabled>Veuillez choisir une option</option>
+                            <select name="budget" defaultValue={'DEFAULT'} onChange={handleChange}>
+                                <option value="DEFAULT"  disabled>Veuillez choisir une option</option>
                                 <option value="Moins de 2500€">Moins de 2500€</option>
                                 <option value="Entre 2500€ et 5000€">Entre 2500€ et 5000€</option>
                                 <option value="Supérieur à 5000€">Supérieur à 5000€</option>

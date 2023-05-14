@@ -1,13 +1,25 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Link} from "gatsby";
 
 import * as styles from '../../styles/support-page.module.css'
 import Layout from "../../components/Layout";
 
+export function Head() {
+    return (
+        <>
+            <title>Éclairage à Nîmes | Solutions Intérieures & Extérieures, LED et Domotique</title>
+            <meta name="description" content="Installation d'éclairage intérieur et extérieur à Nîmes, conseils pour économies d'énergie, éclairage LED et domotique. Faites briller vos espaces !"/>
+            <meta name="robots" content="index, follow"/>
+            <meta property="og:url" content="https://eletricien-nimes.com/services/eclairage"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Éclairage à Nîmes | Solutions Intérieures & Extérieures, LED et Domotique"/>
+            <meta property="og:description" content="Installation d'éclairage intérieur et extérieur à Nîmes, conseils pour économies d'énergie, éclairage LED et domotique. Faites briller vos espaces !"/>
+            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/eclairage-electrique.png"/>
+        </>
+    )
+}
+
 export default function Lighting() {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
     return (
         <Layout>
             <main className="support-page-service-container">

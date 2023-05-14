@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import {Link} from "gatsby";
 
 import Testimonials from "../../components/Testimonials";
@@ -6,6 +6,21 @@ import ImageSlider from "../../components/ImageSlider";
 import Layout from "../../components/Layout";
 
 import * as styles from '../../styles/support-page.module.css'
+
+export function Head() {
+    return (
+        <>
+            <title>Projets Électriques Résidentiels à Nîmes | Photos & Témoignages</title>
+            <meta name="description" content="Parcourez nos projets électriques résidentiels à Nîmes : galerie de photos et témoignages de clients satisfaits. Confiez-nous vos projets !"/>
+            <meta name="robots" content="index, follow"/>
+            <meta property="og:url" content="https://eletricien-nimes.com/realisations/projets-residentiels"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Projets Électriques Résidentiels à Nîmes | Photos & Témoignages"/>
+            <meta property="og:description" content="Parcourez nos projets électriques résidentiels à Nîmes : galerie de photos et témoignages de clients satisfaits. Confiez-nous vos projets !"/>
+            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849344/website-lending/electricien-nimes/meta-images/projet-residentiel.png"/>
+        </>
+    )
+}
 
 export default function ResidentialProjects() {
     const newConstructionSlides = [
@@ -61,10 +76,6 @@ export default function ResidentialProjects() {
             slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
         }
     ]
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
 
     return (
         <Layout>
