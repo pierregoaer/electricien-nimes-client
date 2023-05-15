@@ -20,7 +20,7 @@ module.exports = {
             resolve: `gatsby-plugin-robots-txt`,
             options: {
                 host: 'https://electricien-nimes.com',
-                sitemap: 'https://electricien-nimes.com/sitemap-0.xml',
+                sitemap: 'https://electricien-nimes.com/sitemap.xml',
                 policy: [{userAgent: '*', allow: '/'}]
             }
         },
