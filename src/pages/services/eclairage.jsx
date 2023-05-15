@@ -7,6 +7,8 @@ import Layout from "../../components/Layout";
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/services/eclairage" hrefLang="fr"/>
             <title>Éclairage à Nîmes | Solutions Intérieures & Extérieures, LED et Domotique</title>
             <meta name="description" content="Installation d'éclairage intérieur et extérieur à Nîmes, conseils pour économies d'énergie, éclairage LED et domotique. Faites briller vos espaces !"/>
             <meta name="robots" content="index, follow"/>

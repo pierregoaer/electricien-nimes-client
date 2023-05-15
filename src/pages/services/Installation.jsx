@@ -7,6 +7,8 @@ import Layout from "../../components/Layout";
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/services/installation" hrefLang="fr"/>
             <title>Installation Électrique à Nîmes | Résidentiel, Commercial & Industriel</title>
             <meta name="description" content="Confiez-nous vos installations électriques à Nîmes pour des projets résidentiels, commerciaux et industriels. Expertise et qualité garanties."/>
             <meta name="robots" content="index, follow"/>

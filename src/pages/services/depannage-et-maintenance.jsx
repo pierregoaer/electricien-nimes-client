@@ -7,6 +7,8 @@ import Layout from "../../components/Layout";
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/services/depannage-et-maintenance" hrefLang="fr"/>
             <title>Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes</title>
             <meta name="description" content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
             <meta name="robots" content="index, follow"/>

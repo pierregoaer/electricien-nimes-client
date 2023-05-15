@@ -5,6 +5,8 @@ import Layout from "../components/Layout";
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/contact" hrefLang="fr"/>
             <title>Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit</title>
             <meta name="description" content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
             <meta name="robots" content="index, follow"/>

@@ -12,6 +12,8 @@ import '../styles/global.css'
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com" hrefLang="fr"/>
             <title>Électricien Nîmes : Services & Réalisations | Votre Expert Local</title>
             <meta name="description" content="Découvrez nos électriciens à Nîmes : installations, rénovations, dépannages et plus encore. Faites confiance à notre équipe pour vos projets électriques."/>
             <meta name="robots" content="index, follow"/>

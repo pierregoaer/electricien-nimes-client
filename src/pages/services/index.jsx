@@ -7,6 +7,8 @@ import Layout from "../../components/Layout";
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/services" hrefLang="fr"/>
             <title>Services Électriques à Nîmes | Installation, Rénovation & Dépannage</title>
             <meta name="description" content="Nos services électriques à Nîmes couvrent installations, rénovations, dépannages, éclairages et domotique. Obtenez un service complet et professionnel."/>
             <meta name="robots" content="index, follow"/>

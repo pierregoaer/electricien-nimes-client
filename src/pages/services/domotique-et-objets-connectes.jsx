@@ -7,6 +7,8 @@ import Layout from "../../components/Layout";
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/services/domotique-et-objets-connectes" hrefLang="fr"/>
             <title>Domotique & Objets Connectés à Nîmes | Installation & Conseils</title>
             <meta name="description" content="Simplifiez votre quotidien grâce à nos solutions de domotique et objets connectés à Nîmes. Installation et conseils pour un habitat intelligent."/>
             <meta name="robots" content="index, follow"/>

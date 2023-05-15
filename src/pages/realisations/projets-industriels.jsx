@@ -10,6 +10,8 @@ import * as styles from '../../styles/support-page.module.css'
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/realisations/projets-industriels" hrefLang="fr"/>
             <title>Projets Électriques Industriels à Nîmes | Photos & Témoignages</title>
             <meta name="description" content="Explorez nos projets électriques industriels à Nîmes : photos et témoignages de clients satisfaits. Confiez-nous vos projets pour une réalisation impeccable."/>
             <meta name="robots" content="index, follow"/>

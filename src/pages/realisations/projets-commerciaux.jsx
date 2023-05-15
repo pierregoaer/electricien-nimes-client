@@ -10,6 +10,8 @@ import * as styles from '../../styles/support-page.module.css'
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/realisations/projets-commerciaux" hrefLang="fr"/>
             <title>Projets Électriques Commerciaux à Nîmes | Photos & Témoignages</title>
             <meta name="description" content="Découvrez nos réalisations de projets électriques commerciaux à Nîmes. Galerie de photos et témoignages de clients satisfaits pour vous inspirer."/>
             <meta name="robots" content="index, follow"/>

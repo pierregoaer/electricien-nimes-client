@@ -7,6 +7,8 @@ import * as styles from '../../styles/silo-page.module.css'
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/realisations" hrefLang="fr"/>
             <title>Réalisations Électriques à Nîmes | Projets Résidentiels, Commerciaux & Industriels</title>
             <meta name="description" content="Consultez nos réalisations électriques à Nîmes pour les projets résidentiels, commerciaux et industriels. Bénéficiez de notre expertise pour vos projets."/>
             <meta name="robots" content="index, follow"/>

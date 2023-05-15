@@ -7,6 +7,8 @@ import * as styles from '../styles/about-us.module.css';
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/a-propos" hrefLang="fr"/>
             <title>À Propos de Notre Entreprise Électrique à Nîmes | Qualité & Sécurité</title>
             <meta name="description" content="Découvrez notre entreprise d'électriciens à Nîmes : certifications, compétences, valeurs et engagement envers la qualité et la sécurité de nos clients."/>
             <meta name="robots" content="index, follow"/>
@@ -25,7 +27,7 @@ export default function AboutUs() {
             <section className="about-us-page-hero">
                 <div className="section-inner hero-section-padding">
                     <div className={styles.aboutUsIntroText}>
-                        <h2>Certifications, formations et compétences</h2>
+                        <h1>Certifications, formations et compétences</h1>
                     </div>
                 </div>
             </section>

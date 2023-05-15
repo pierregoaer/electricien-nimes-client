@@ -7,6 +7,8 @@ import Layout from "../../components/Layout";
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/services/renovation-et-mise-aux-normes" hrefLang="fr"/>
             <title>Rénovation Électrique à Nîmes | Mise aux Normes & Réparation</title>
             <meta name="description" content="Besoin d'une rénovation électrique à Nîmes ? Nos experts assurent mise aux normes, remplacement de tableaux et réparation de circuits. Contactez-nous !"/>
             <meta name="robots" content="index, follow"/>

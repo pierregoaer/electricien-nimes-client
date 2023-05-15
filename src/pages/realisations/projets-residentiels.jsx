@@ -10,6 +10,8 @@ import * as styles from '../../styles/support-page.module.css'
 export function Head() {
     return (
         <>
+            <html lang="fr" />
+            <link rel="alternate" href="https://eletricien-nimes.com/realisations/projets-residentiels" hrefLang="fr"/>
             <title>Projets Électriques Résidentiels à Nîmes | Photos & Témoignages</title>
             <meta name="description" content="Parcourez nos projets électriques résidentiels à Nîmes : galerie de photos et témoignages de clients satisfaits. Confiez-nous vos projets !"/>
             <meta name="robots" content="index, follow"/>
