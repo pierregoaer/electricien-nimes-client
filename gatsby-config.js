@@ -27,7 +27,7 @@ module.exports = {
         {
             resolve: "gatsby-plugin-sitemap",
             options: {
-                output: `/sitemap.xml`,
+                output: `/sitemap-0.xml`,
                 query: `
                 {
                   site {
