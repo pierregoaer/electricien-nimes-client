@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Link} from 'gatsby';
 
 import * as styles from '../styles/nav.module.css';
+import {StaticImage} from "gatsby-plugin-image";
 
 export default function Nav() {
     const [mobileNavVisible, setMobileNavVisible] = useState(false)
@@ -14,7 +15,11 @@ export default function Nav() {
         <header className={styles.navContainer}>
             <div className={styles.navMain}>
                 <Link to={'/'} className={styles.navLogoContainer}>
-                    <img className={styles.navLogo} src="https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1683643626/website-lending/electricien-nimes/logos/logo-main.png" alt="Logo Electricien Nîmes"/>
+                    <StaticImage
+                        src="https://res.cloudinary.com/dg8awj55m/image/upload/v1683643626/website-lending/electricien-nimes/logos/logo-main.png"
+                        alt="Logo Electricien Nîmes"
+                        height={45}
+                    />
                 </Link>
                 <ul className={styles.navMainNavigation} data-visible={mobileNavVisible}>
                     <li className={styles.navMainNavigationDropdown}>

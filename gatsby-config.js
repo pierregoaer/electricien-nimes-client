@@ -17,6 +17,17 @@ module.exports = {
             },
         },
         {
+            resolve: `gatsby-plugin-sharp`,
+            options: {
+                defaults: {
+                    formats: [`auto`, `webp`],
+                    placeholder: `dominantColor`,
+                }
+            }
+        },
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-image`,
+        {
             resolve: `gatsby-plugin-robots-txt`,
             options: {
                 host: 'https://electricien-nimes.com',
@@ -50,7 +61,8 @@ module.exports = {
                 `,
                 resolvePages: ({
                                    allFile: {nodes: allPages},
-                                   allBlogArticle: {nodes: allArticles}}) => {
+                                   allBlogArticle: {nodes: allArticles}
+                               }) => {
                     const pages = allPages.map(page => {
                         return {
                             path: `https://electricien-nimes.com/${page.relativePath.replace('index.jsx', '').replace('.jsx', '/')}`,

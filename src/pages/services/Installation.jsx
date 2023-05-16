@@ -61,27 +61,27 @@ export default function Installation() {
                             <p>Nos services en installation électrique résidentielle à Nîmes incluent :</p>
                         </div>
                         <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>La pose de tableaux électriques et la mise en place des circuits électriques</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>La mise en place des circuits électriques</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>L'installation de prises, interrupteurs et points lumineux</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>La mise en place de systèmes de domotique et de gestion de l'énergie</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>Le câblage pour le téléphone, la télévision et Internet</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>L'installation de systèmes d'éclairage intérieur et extérieur</p>
                             </li>
@@ -109,21 +109,21 @@ export default function Installation() {
                             <p>Nos services en installation électrique commerciale à Nîmes incluent :</p>
                         </div>
                         <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p>La <span className="bold">conception et l'installation</span> de tableaux électriques
+                                <p>La <strong>conception et l'installation</strong> de tableaux électriques
                                     spécifiques aux besoins de
                                     votre commerce</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p>La <span className="bold">mise en place</span> d'éclairages adaptés à votre activité
+                                <p>La <strong>mise en place</strong> d'éclairages adaptés à votre activité
                                     et à
                                     vos espaces</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p><span className="bold">L'installation</span> de systèmes de sécurité, de prises et de
+                                <p><strong>L'installation</strong> de systèmes de sécurité, de prises et de
                                     câblage pour les équipements informatiques et de communication</p>
                             </li>
                         </ul>
@@ -149,30 +149,30 @@ export default function Installation() {
                             <p>Nos services en installation électrique industrielle à Nîmes incluent :</p>
                         </div>
                         <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>La réalisation d'études techniques et l'élaboration de plans électriques</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>L'installation de tableaux électriques industriels et la gestion des circuits de
                                     puissance et de contrôle</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>La gestion des circuits de puissance et de contrôle</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>La mise en place de systèmes d'alimentation électrique pour les machines et les
                                     équipements de production</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>L'installation de systèmes d'éclairage et de sécurité adaptés aux environnements
                                     industriels</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>La maintenance préventive et curative de vos installations
                                     électriques</p>

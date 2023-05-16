@@ -27,12 +27,20 @@ export default function Blogs({ data }) {
     const blogCardElements = blogs.map(blog => <BlogCard key={blog.id} blogData={blog}/>)
     return (
         <Layout>
+            <section className="blog-page-hero">
+                <div className="section-inner hero-section-padding">
+                    <div className="blog-page-text-block">
+                        <h1>Blog</h1>
+                        <p>Notre entreprise d'électricité à Nîmes se distingue par son expertise, ses compétences et ses
+                            valeurs. Nous sommes fiers de mettre notre savoir-faire au service de nos clients pour leur
+                            offrir des prestations de qualité et garantir leur satisfaction. Découvrez nos
+                            certifications, nos formations et nos compétences, ainsi que notre engagement envers la
+                            qualité et la sécurité dans le domaine de l'électricité.</p>
+                    </div>
+                </div>
+            </section>
             <section className="blogs-container">
                 <div className={`hero-section-padding ${styles.blogsMain}`}>
-                    <div className={styles.blogsText}>
-                        <h1>Blog</h1>
-                        <p></p>
-                    </div>
                     <div className={styles.blogsGrid}>
                         {blogCardElements}
                     </div>

@@ -61,18 +61,18 @@ export default function Renovation() {
                             <p>La mise aux normes de votre installation électrique implique plusieurs étapes, dont :</p>
                         </div>
                         <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p>Le diagnostic de l'installation existante et la proposition de solutions adaptées à
+                                <p><strong>Le diagnostic de l'installation existante</strong> et la proposition de solutions adaptées à
                                     votre situation</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p>Le remplacement ou la mise en conformité des équipements non conformes</p>
+                                <p><strong>Le remplacement ou la mise en conformité</strong> des équipements non conformes</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p>La vérification de la conformité de l'installation une fois les travaux réalisés</p>
+                                <p><strong>La vérification de la conformité</strong> de l'installation une fois les travaux réalisés</p>
                             </li>
                         </ul>
 
@@ -87,15 +87,15 @@ export default function Renovation() {
                                 habitation. Le remplacement de votre tableau électrique peut être nécessaire pour :</p>
                         </div>
                         <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
                                 <p>Améliorer la sécurité de votre installation</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
                                 <p>Augmenter la capacité de votre installation en cas d'ajout d'équipements électriques</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
                                 <p>Faciliter la gestion de votre consommation électrique</p>
                             </li>
@@ -134,27 +134,27 @@ export default function Renovation() {
                             <p>Les signes d'un circuit électrique défectueux peuvent être variés, tels que :</p>
                         </div>
                         <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>Des disjoncteurs qui sautent fréquemment</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>Des fusibles qui grillent</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>Des prises ou interrupteurs qui chauffent</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>Des variations de tension inhabituelles</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>Des coupures d’électricité</p>
                             </li>
-                            <li className="bulleted-list-card">
+                            <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
                                 <p>Des surcharges électriques</p>
                             </li>

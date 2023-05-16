@@ -52,30 +52,36 @@ export default function Lighting() {
                             <p>En tant qu'électricien à Nîmes, nous vous proposons des solutions d'éclairage intérieur
                                 sur mesure, incluant :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                L'installation de luminaires encastrés, suspendus ou sur rail
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>L'installation de luminaires encastrés, suspendus ou sur rail</p>
                             </li>
-                            <li className="numbered-list-card">
-                                L'éclairage d'accentuation pour mettre en valeur vos objets décoratifs
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>L'éclairage d'accentuation pour mettre en valeur vos objets décoratifs</p>
                             </li>
-                            <li className="numbered-list-card">
-                                L'éclairage fonctionnel pour vos espaces de travail, cuisine ou salle de bains
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>L'éclairage fonctionnel pour vos espaces de travail, cuisine ou salle de bains</p>
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>
                             <p>Pour vos espaces extérieurs, nous vous proposons également des solutions d'éclairage
                                 adaptées à vos besoins :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                L'éclairage de sécurité pour prévenir les intrusions et faciliter vos déplacements
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>L'éclairage de sécurité</strong> pour prévenir les intrusions et faciliter vos déplacements de luminaires encastrés, suspendus ou sur rail</p>
                             </li>
-                            <li className="numbered-list-card">
-                                L'éclairage d'ambiance pour sublimer votre jardin ou votre terrasse
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>L'éclairage d'ambiance</strong> pour sublimer votre jardin ou votre terrasse d'accentuation pour mettre en valeur vos objets décoratifs</p>
                             </li>
-                            <li className="numbered-list-card">
-                                L'éclairage architectural pour mettre en valeur les éléments de votre façade
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>L'éclairage architectural</strong> pour mettre en valeur les éléments de votre façade</p>
                             </li>
                         </ul>
                     </div>
@@ -91,15 +97,18 @@ export default function Lighting() {
                             <p>Pour optimiser votre éclairage et réaliser des économies d'énergie, nous vous donnerons
                                 des conseils sur :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                Choisir des ampoules à faible consommation, telles que les ampoules LED
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>Choisir des ampoules à faible consommation, telles que les ampoules LED</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Utiliser des variateurs d'intensité pour adapter l'éclairage à vos besoins
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>Utiliser des variateurs d'intensité pour adapter l'éclairage à vos besoins</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Installer des détecteurs de présence pour éviter de gaspiller de l'énergie
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>staller des détecteurs de présence pour éviter de gaspiller de l'énergie</p>
                             </li>
                         </ul>
 
@@ -117,18 +126,21 @@ export default function Lighting() {
                             <p>L'éclairage LED présente de nombreux avantages, en particulier pour les économies
                                 d'énergie et la durabilité :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                Faible consommation d'énergie : les ampoules LED consomment jusqu'à 80 % d'énergie en
-                                moins que les ampoules traditionnelles.
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>Faible consommation d'énergie</strong> : les ampoules LED consomment jusqu'à 80 % d'énergie en
+                                moins que les ampoules traditionnelles.</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Longue durée de vie : les ampoules LED ont une durée de vie pouvant atteindre 50 000
-                                heures, réduisant ainsi les coûts de remplacement.
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>Longue durée de vie</strong> : les ampoules LED ont une durée de vie pouvant atteindre 50 000
+                                heures, réduisant ainsi les coûts de remplacement.</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Qualité de lumière : les LED offrent une lumière de qualité et un excellent rendu des
-                                couleurs.
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>Qualité de lumière</strong> : les LED offrent une lumière de qualité et un excellent rendu des
+                                couleurs.</p>
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>
@@ -137,18 +149,20 @@ export default function Lighting() {
                                 Nîmes, nous vous proposons des solutions d'éclairage connecté pour améliorer votre
                                 confort et votre sécurité :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                Contrôle à distance de l'éclairage : allumez, éteignez ou ajustez l'intensité de vos
-                                luminaires depuis votre smartphone ou votre tablette.
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>Contrôle à distance de l'éclairage</strong> : allumez, éteignez ou ajustez l'intensité de vos
+                                luminaires depuis votre smartphone ou votre tablette.</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Programmation de l'éclairage : programmez des scénarios d'éclairage personnalisés en
-                                fonction de vos besoins et de vos habitudes.
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>L'éclairage d'accentuation</strong> : permet de mettre en valeur vos objets décoratifs</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Détecteurs de mouvement et de luminosité : adaptez automatiquement l'éclairage en
-                                fonction de la présence de personnes ou des conditions de luminosité.
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p><strong>Détecteurs de mouvement et de luminosité</strong> : adaptez automatiquement l'éclairage en
+                                fonction de la présence de personnes ou des conditions de luminosité.</p>
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>

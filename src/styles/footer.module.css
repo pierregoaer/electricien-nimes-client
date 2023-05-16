@@ -42,6 +42,7 @@
 
 .column-5 a {
     align-self: start;
+    margin-bottom: 20px;
 }
 
 .column-5 .contact-phone {
@@ -56,6 +57,25 @@
 }
 .column-5 .contact-phone svg path {
     stroke: var(--primary-accent-color);
+}
+
+.socials-container p {
+    margin-bottom: 5px;
+}
+
+.socials-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.socials-icons svg {
+    width: 25px;
+    fill: var(--secondary-text-color);
+    transition: fill .1s ease-in-out;
+}
+
+.socials-icons svg:hover {
+    fill: var(--primary-accent-color);
 }
 
 .footer-copyrights {

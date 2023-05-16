@@ -7,16 +7,19 @@ import Layout from "../../components/Layout";
 export function Head() {
     return (
         <>
-            <html lang="fr" />
+            <html lang="fr"/>
             <link rel="alternate" href="https://eletricien-nimes.com/services/depannage-et-maintenance" hrefLang="fr"/>
             <title>Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes</title>
-            <meta name="description" content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
+            <meta name="description"
+                  content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
             <meta name="robots" content="index, follow"/>
             <meta property="og:url" content="https://eletricien-nimes.com/services/depannage-et-maintenance"/>
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes"/>
-            <meta property="og:description" content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
-            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/depannage-electrique.png"/>
+            <meta property="og:description"
+                  content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
+            <meta property="og:image"
+                  content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/depannage-electrique.png"/>
         </>
     )
 }
@@ -52,35 +55,50 @@ export default function Maintenance() {
 
                             <p>Notre service d'urgence électrique à Nîmes est simple et rapide :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                Contactez-nous par téléphone ou via notre formulaire en ligne pour signaler votre
-                                problème électrique
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>Contactez-nous par téléphone ou via notre formulaire en ligne pour signaler votre
+                                    problème électrique</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Un électricien qualifié se rendra sur place dans les plus brefs délais pour évaluer la
-                                situation et effectuer les réparations nécessaires
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>Un électricien qualifié se rendra sur place dans les plus brefs délais pour évaluer la
+                                situation et effectuer les réparations nécessaires</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Vous bénéficierez d'un suivi personnalisé et d'un accompagnement tout au long de
-                                l'intervention
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <h4></h4>
+                                <p>Vous bénéficierez d'un suivi personnalisé et d'un accompagnement tout au long de
+                                l'intervention</p>
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>
                             <p>Parmi les urgences électriques les plus courantes à Nîmes, on retrouve :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                Les coupures de courant
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les coupures de courant</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les courts-circuits
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les courts-circuits</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les surchauffes de câbles ou de prises
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les surchauffes de câbles ou de prises</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les problèmes de disjoncteur
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les problèmes de disjoncteur</p>
+                            </li>
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>XXX</p>
+                            </li>
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>XXX</p>
                             </li>
                         </ul>
                     </div>
@@ -98,13 +116,13 @@ export default function Maintenance() {
                         </div>
                         <ul className="numbered-list-cards">
                             <li className="numbered-list-card">
-                                L'analyse de la situation et l'identification des symptômes de la panne
+                                <strong>L'analyse de la situation</strong> et l'identification des symptômes de la panne
                             </li>
                             <li className="numbered-list-card">
-                                La recherche de la cause du problème, en effectuant des tests et des mesures
+                                <strong>La recherche de la cause du problème</strong>, en effectuant des tests et des mesures
                             </li>
                             <li className="numbered-list-card">
-                                La proposition de solutions adaptées pour résoudre la panne et prévenir de futurs
+                                <strong>La proposition de solutions adaptées</strong> pour résoudre la panne et prévenir de futurs
                                 problèmes
                             </li>
                         </ul>
@@ -112,18 +130,30 @@ export default function Maintenance() {
                         <div className={styles.supportPageText}>
                             <p>Parmi les pannes électriques les plus courantes à Nîmes, on retrouve :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                Les problèmes de disjoncteurs ou de fusibles
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les problèmes de disjoncteurs ou de fusibles</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les courts-circuits
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les courts-circuits</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les pannes d'éclairage
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les pannes d'éclairage</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les problèmes de prises ou d'interrupteurs
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les problèmes de prises ou d'interrupteurs</p>
+                            </li>
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>XXX</p>
+                            </li>
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>XXX</p>
                             </li>
                         </ul>
                     </div>
@@ -156,18 +186,30 @@ export default function Maintenance() {
                         <div className={styles.supportPageText}>
                             <p>Parmi les composants électriques les plus couramment remplacés, on retrouve :</p>
                         </div>
-                        <ul className="numbered-list-cards">
-                            <li className="numbered-list-card">
-                                Les disjoncteurs
+                        <ul className="bulleted-list-cards">
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les disjoncteurs</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les fusibles
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les Les fusibles</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les prises et les interrupteurs
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les prises et les interrupteurs</p>
                             </li>
-                            <li className="numbered-list-card">
-                                Les câbles électriques
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>Les câbles électriques</p>
+                            </li>
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>XXX</p>
+                            </li>
+                            <li className="bulleted-list-card bulleted-list-card-6">
+                                <h4></h4>
+                                <p>XXX</p>
                             </li>
                         </ul>
                     </div>

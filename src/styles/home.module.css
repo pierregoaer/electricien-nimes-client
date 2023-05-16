@@ -6,19 +6,28 @@
     position: relative;
 }
 
-.home-hero-container::before {
-    content: "";
+.home-hero-main-background-img {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
     left: 0;
-    z-index: -1;
-    background-image: url("https://res.cloudinary.com/dg8awj55m/image/upload/v1683919915/website-lending/electricien-nimes/images/electricien-nimes-background.png");
-    background-size: cover;
-    background-position: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
     opacity: 0.15;
 }
+
+/*.home-hero-container::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    z-index: -1;*/
+/*    background-image: url("https://res.cloudinary.com/dg8awj55m/image/upload/v1683919915/website-lending/electricien-nimes/images/electricien-nimes-background.png");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    opacity: 0.15;*/
+/*}*/
 
 .home-hero-main {
     display: flex;
@@ -26,13 +35,14 @@
 }
 
 .home-hero-main .home-hero-text {
-    flex-grow: 2;
+    flex: 1 1 0;
     padding: 30px;
 }
 
 .home-hero-main .hero-image {
-    flex-grow: 1;
+    flex: 1 1 0;
 }
+
 
 .home-hero-text h1 {
     font-size: 3.5rem;
