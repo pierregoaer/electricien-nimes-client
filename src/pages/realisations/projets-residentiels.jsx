@@ -33,12 +33,12 @@ export default function ResidentialProjects() {
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682631078/website-lending/electricien-nimes/images/salon-moderne-1.jpg',
-            slideName: 'Conception et réalisation de constructions neuves',
+            slideAlt: 'Conception et réalisation de constructions neuves',
             slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659622/website-lending/electricien-nimes/images/maison-connectee.jpg',
-            slideName: 'Conception et réalisation de constructions neuves',
+            slideAlt: 'Conception et réalisation de constructions neuves',
             slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
         }
     ]
@@ -46,17 +46,17 @@ export default function ResidentialProjects() {
     const renovationSlides = [
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682630773/website-lending/electricien-nimes/images/armoire-electrique-a-remplacer.jpg',
-            slideName: "Rénovation d'installation électrique",
+            slideAlt: "Rénovation d'installation électrique",
             slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659617/website-lending/electricien-nimes/images/cables-electriques-1.jpg',
-            slideName: "Rénovation d'installation électrique",
+            slideAlt: "Rénovation d'installation électrique",
             slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1681828281/website-lending/electricien-nimes/images/electricien-sur-chantier-3.jpg',
-            slideName: "Rénovation d'installation électrique",
+            slideAlt: "Rénovation d'installation électrique",
             slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
         }
     ]
@@ -64,17 +64,17 @@ export default function ResidentialProjects() {
     const extensionSlides = [
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659624/website-lending/electricien-nimes/images/veranda-extension.jpg',
-            slideName: 'Extension et aménagement d\'habitations',
+            slideAlt: 'Extension et aménagement d\'habitations',
             slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659623/website-lending/electricien-nimes/images/panneaux-solaires.jpg',
-            slideName: 'Extension et aménagement d\'habitations',
+            slideAlt: 'Extension et aménagement d\'habitations',
             slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659613/website-lending/electricien-nimes/images/allee-lumineuse.jpg',
-            slideName: 'Extension et aménagement d\'habitations',
+            slideAlt: 'Extension et aménagement d\'habitations',
             slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
         }
     ]

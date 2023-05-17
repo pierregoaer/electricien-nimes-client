@@ -21,7 +21,7 @@ module.exports = {
             options: {
                 defaults: {
                     formats: [`auto`, `webp`],
-                    placeholder: `dominantColor`,
+                    placeholder: `blurred`,
                 }
             }
         },

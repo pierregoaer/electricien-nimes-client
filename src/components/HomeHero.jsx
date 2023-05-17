@@ -8,12 +8,12 @@ export default function HomeHero() {
     return (
         <section className={styles.homeHeroContainer}>
             <div className={`section-inner hero-section-padding ${styles.homeHeroMain}`}>
-                <div className={styles.homeHeroMainBackgroundImg}>
-                    <StaticImage
-                        src='https://res.cloudinary.com/dg8awj55m/image/upload/v1683919915/website-lending/electricien-nimes/images/electricien-nimes-background.png'
-                        alt="Image de fond"
-                    />
-                </div>
+                <StaticImage
+                    src='https://res.cloudinary.com/dg8awj55m/image/upload/v1683919915/website-lending/electricien-nimes/images/electricien-nimes-background.png'
+                    alt="Image de fond"
+                    style={{position: 'absolute'}}
+                    className={styles.homeHeroMainBackgroundImg}
+                />
                 <div className={styles.homeHeroText}>
                     <h1>Votre expert en électricité <span className="text-highlight">à Nîmes</span>.</h1>
                     <p>Forts de notre expérience et de notre expertise, nous vous proposons une gamme complète de

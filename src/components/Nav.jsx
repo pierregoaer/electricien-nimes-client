@@ -26,10 +26,12 @@ export default function Nav() {
                         <Link to={'/services'} onClick={handleDisplayMobileNav}
                               className={styles.navMainNavigationTitle}>Services</Link>
                         <ul className={styles.navMainNavigationDropdownList}>
-                            <li><Link to={'/services/installation'} onClick={handleDisplayMobileNav}>Installation</Link></li>
+                            <li><Link to={'/services/installation'} onClick={handleDisplayMobileNav}>Installation</Link>
+                            </li>
                             <li><Link to={'/services/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation
                                 et mise aux normes</Link></li>
-                            <li><Link to={'/services/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage et
+                            <li><Link to={'/services/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage
+                                et
                                 maintenance</Link></li>
                             <li><Link to={'/services/eclairage'} onClick={handleDisplayMobileNav}>Éclairage</Link></li>
                             <li><Link to={'/services/domotique-et-objets-connectes'} onClick={handleDisplayMobileNav}>Domotique
@@ -58,9 +60,12 @@ export default function Nav() {
                 <Link to={'/contact'} className={`btn-primary ${styles.navMainNavigationContact}`}>Devis gratuit</Link>
                 <div className={styles.navMobileNavIconContainer} data-visible={mobileNavVisible}
                      onClick={handleDisplayMobileNav}>
-                    <div className={`${styles.mobileNavIcon} ${styles.menuTop} ${mobileNavVisible ? `${styles.active}` : ""}`}></div>
-                    <div className={`${styles.mobileNavIcon} ${styles.menuMiddle} ${mobileNavVisible ? `${styles.active}` : ""}`}></div>
-                    <div className={`${styles.mobileNavIcon} ${styles.menuBottom} ${mobileNavVisible ? `${styles.active}` : ""}`}></div>
+                    <div
+                        className={`${styles.mobileNavIcon} ${styles.menuTop} ${mobileNavVisible ? `${styles.active}` : ""}`}></div>
+                    <div
+                        className={`${styles.mobileNavIcon} ${styles.menuMiddle} ${mobileNavVisible ? `${styles.active}` : ""}`}></div>
+                    <div
+                        className={`${styles.mobileNavIcon} ${styles.menuBottom} ${mobileNavVisible ? `${styles.active}` : ""}`}></div>
                 </div>
             </div>
         </header>
