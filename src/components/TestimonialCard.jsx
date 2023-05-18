@@ -4,8 +4,6 @@ import {StaticImage} from "gatsby-plugin-image";
 
 
 export default function TestimonialCard({quote, name, image}) {
-    const imageUrl = image
-    console.log(imageUrl)
     return (
         <li className={styles.testimonialCard}>
             <div className={`${styles.testimonialCardQuote} ${styles.justifiedText}`}>{quote}</div>

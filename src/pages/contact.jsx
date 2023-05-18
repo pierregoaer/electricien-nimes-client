@@ -1,25 +1,29 @@
 import React, {useState} from 'react';
 import * as styles from '../styles/contact.module.css'
 import Layout from "../components/Layout";
+import {navigate} from "gatsby";
 
 export function Head() {
     return (
         <>
-            <html lang="fr" />
+            <html lang="fr"/>
             <title>Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit</title>
-            <meta name="description" content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
+            <meta name="description"
+                  content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
             <meta name="robots" content="index, follow"/>
             <meta property="og:url" content="https://eletricien-nimes.com/contact"/>
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit"/>
-            <meta property="og:description" content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
-            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/contact.png"/>
+            <meta property="og:description"
+                  content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
+            <meta property="og:image"
+                  content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/contact.png"/>
         </>
     )
 }
 
 export default function Contact() {
-    const [formData, setFormData] = useState({
+    const initialFormData = {
         name: '',
         email: '',
         phone: '',
@@ -27,7 +31,11 @@ export default function Contact() {
         timeframe: '',
         budget: '',
         message: '',
-    });
+    }
+
+    const [formData, setFormData] = useState(initialFormData);
+
+    const [messageSubmitted, setMessageSubmitted] = useState(false)
 
     function handleChange(event) {
         const target = event.target;
@@ -47,6 +55,7 @@ export default function Contact() {
             window.alert("Certains champs requis sont vides.")
             return
         }
+        setMessageSubmitted(prev => !prev)
         const dataJSON = JSON.stringify(formData);
 
         fetch('https://api.electricien-nimes.com/contact', {
@@ -56,7 +65,17 @@ export default function Contact() {
                 'Content-Type': 'application/json',
             },
             body: dataJSON,
-        }).then(response => console.log(response.status));
+        }).then(response => {
+            if (response.status === 200) {
+                setFormData(initialFormData)
+                setMessageSubmitted(false)
+                navigate('/merci')
+            } else {
+                setMessageSubmitted(false)
+                window.alert("Une erreur s'est produite, veuillez réessayer.")
+
+            }
+        });
     }
 
     return (
@@ -127,9 +146,13 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactFormField}>
                             <label htmlFor="service">Quel type de service recherchez-vous ?*</label>
-                            <select name="service" defaultValue={'DEFAULT'} onChange={handleChange}>
+                            <select
+                                name="service"
+                                value={formData.service || 'DEFAULT'}
+                                onChange={handleChange}
+                            >
                                 <option value="DEFAULT" disabled>Veuillez choisir une option</option>
-                                <option value="InstallationElectrique">InstallationElectrique</option>
+                                <option value="InstallationElectrique">Installation</option>
                                 <option value="Rénovation et mise aux normes">Rénovation et mise aux normes</option>
                                 <option value="Rénovation et mise aux normes">Dépannage et maintenance</option>
                                 <option value="Eclairage">Eclairage</option>
@@ -139,7 +162,11 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactFormField}>
                             <label htmlFor="timeframe">Quel est votre délais souhaité ?*</label>
-                            <select name="timeframe" defaultValue={'DEFAULT'} onChange={handleChange}>
+                            <select
+                                name="timeframe"
+                                value={formData.timeframe || 'DEFAULT'}
+                                onChange={handleChange}
+                            >
                                 <option value="DEFAULT" disabled>Veuillez choisir une option</option>
                                 <option value="Moins de 3 mois">Moins de 3 mois</option>
                                 <option value="De 3 à 6 mois">De 3 à 6 mois</option>
@@ -148,8 +175,12 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactFormField}>
                             <label htmlFor="budget">Quel est votre budget ?*</label>
-                            <select name="budget" defaultValue={'DEFAULT'} onChange={handleChange}>
-                                <option value="DEFAULT"  disabled>Veuillez choisir une option</option>
+                            <select
+                                name="budget"
+                                value={formData.budget || 'DEFAULT'}
+                                onChange={handleChange}
+                            >
+                                <option value="DEFAULT" disabled>Veuillez choisir une option</option>
                                 <option value="Moins de 2500€">Moins de 2500€</option>
                                 <option value="Entre 2500€ et 5000€">Entre 2500€ et 5000€</option>
                                 <option value="Supérieur à 5000€">Supérieur à 5000€</option>
@@ -165,7 +196,16 @@ export default function Contact() {
                             />
                         </div>
                         <p className={styles.contactFormDisclaimer}>Les champs marqués d'un * sont requis.</p>
-                        <button type="submit" className="btn-primary" onClick={handleSubmit}>Envoyer</button>
+                        {!messageSubmitted &&
+                            <button type="submit" className="btn-primary" onClick={handleSubmit}>Envoyer</button>}
+                        {messageSubmitted &&
+                            <div className={styles.spinner}>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        }
                     </form>
 
                 </div>

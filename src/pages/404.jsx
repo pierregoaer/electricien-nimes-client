@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from "../components/Layout";
-import {graphql} from "gatsby";
+import * as styles from "../styles/special-page.module.css"
 
 export function Head() {
     return (
         <>
-            <html lang="fr" />
+            <html lang="fr"/>
             <link rel="alternate" href="https://eletricien-nimes.com" hrefLang="fr"/>
             <title>404 - Cette page n'existe pas</title>
             <meta name="description" content="404 - Cette page n'existe pas"/>
@@ -36,8 +36,8 @@ export default function Page404({data}) {
     // console.log(pages.concat(blogs))
     return (
         <Layout>
-            <div>
-                <h1 style={{fontSize: '2rem' ,textAlign: 'center', margin: '90px auto'}}>Cette page n'existe pas.</h1>
+            <div className={styles.specialPage}>
+                <h1>Cette page n'existe pas.</h1>
             </div>
         </Layout>
     );

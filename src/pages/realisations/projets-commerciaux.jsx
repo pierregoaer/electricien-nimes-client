@@ -28,57 +28,50 @@ export function Head() {
 }
 
 export default function CommercialProjects() {
-    const newConstructionSlides = [
+    const commercialProjectsSlides = [
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682695420/website-lending/electricien-nimes/images/maison-moderne.jpg',
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659624/website-lending/electricien-nimes/images/restaurant-lumineux.jpg',
             slideAlt: 'Conception et réalisation de constructions neuves',
-            slideText: 'InstallationElectrique d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
+            slideText: 'Installation électrique complète pour un restaurant'
         },
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682631078/website-lending/electricien-nimes/images/salon-moderne-1.jpg',
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682631078/website-lending/electricien-nimes/images/neon-lumineux.jpg',
             slideAlt: 'Conception et réalisation de constructions neuves',
-            slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
+            slideText: 'Mise en place d\'un éclairage extérieur pour une enseigne commerciale'
         },
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659622/website-lending/electricien-nimes/images/maison-connectee.jpg',
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682631078/website-lending/electricien-nimes/images/bureaux-1.jpg',
             slideAlt: 'Conception et réalisation de constructions neuves',
-            slideText: 'InstallationElectrique de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
+            slideText: 'Rénovation électrique d\'un espace de bureaux'
+        },
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682631078/website-lending/electricien-nimes/images/magasin-velo.jpg',
+            slideAlt: 'Conception et réalisation de constructions neuves',
+            slideText: 'Installation de dispositifs de sécurité pour un commerce'
+        },
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659622/website-lending/electricien-nimes/images/chambre-lumineuse.jpg',
+            slideAlt: 'Conception et réalisation de constructions neuves',
+            slideText: 'Intégration de la domotique et des objets connectés pour un hôtel'
         }
     ]
 
-    const renovationSlides = [
+    const testimonials = [
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682630773/website-lending/electricien-nimes/images/armoire-electrique-a-remplacer.jpg',
-            slideAlt: "Rénovation d'installation électrique",
-            slideText: 'InstallationElectrique d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
+            quote: "Tout comme mon projet de maison principale, j'ai fait appel à cette entreprise d'électriciens pour la rénovation électrique de mon commerce. L'équipe a été très professionnelle et réactive. Je suis ravi du résultat et je recommande vivement leurs services !",
+            name: "Jean-Michel, propriétaire d'une boutique",
+            image: "https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_80,w_80/v1683642961/website-lending/electricien-nimes/testimonials/testimonial-4.webp"
         },
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659617/website-lending/electricien-nimes/images/cables-electriques-1.jpg',
-            slideAlt: "Rénovation d'installation électrique",
-            slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
+            quote: "Nous avons sollicité cette entreprise pour l'installation de l'éclairage extérieur de notre enseigne. Le travail a été réalisé rapidement et avec soin. Le rendu est magnifique et nous sommes très satisfaits !",
+            name: "Stéphanie, gérante d'un restaurant",
+            image: "https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_80,w_80/v1683642961/website-lending/electricien-nimes/testimonials/testimonial-5.webp"
         },
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1681828281/website-lending/electricien-nimes/images/electricien-sur-chantier-3.jpg',
-            slideAlt: "Rénovation d'installation électrique",
-            slideText: 'InstallationElectrique de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
-        }
-    ]
 
-    const extensionSlides = [
-        {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659624/website-lending/electricien-nimes/images/veranda-extension.jpg',
-            slideAlt: 'Extension et aménagement d\'habitations',
-            slideText: 'InstallationElectrique d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
-        },
-        {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659623/website-lending/electricien-nimes/images/panneaux-solaires.jpg',
-            slideAlt: 'Extension et aménagement d\'habitations',
-            slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
-        },
-        {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659613/website-lending/electricien-nimes/images/allee-lumineuse.jpg',
-            slideAlt: 'Extension et aménagement d\'habitations',
-            slideText: 'InstallationElectrique de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
+            quote: "Un grand merci à cette équipe d'électriciens pour leur expertise et leur disponibilité lors de l'installation de la domotique dans notre hôtel. Tout fonctionne parfaitement et nous avons pu optimiser notre consommation d'énergie. Je les recommande sans hésitation !",
+            name: "Olivier, directeur d'un hôtel",
+            image: "https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_80,w_80/v1683642961/website-lending/electricien-nimes/testimonials/testimonial-6.webp"
         }
     ]
 
@@ -89,75 +82,64 @@ export default function CommercialProjects() {
                     <div className="hero-section-padding">
                         <div className="support-page-text-block">
                             <h1>Réalisations de projets électriques commerciaux à Nîmes : découvrez notre expertise</h1>
-                            <p>Notre équipe d'électriciens à Nîmes est fière de vous présenter nos réalisations en
-                                matière de projets électriques commerciaux. Nous mettons notre expertise et notre
-                                savoir-faire au service des professionnels pour leur offrir des solutions électriques
-                                adaptées à leurs besoins. Découvrez notre galerie de photos de projets réalisés et les
-                                témoignages de clients satisfaits pour vous faire une idée de la qualité de notre
-                                travail et de l'engagement de notre équipe.</p>
+                            <p>Nos électriciens à Nîmes sont spécialisés dans la <strong>réalisation de projets
+                                électriques
+                                industriels</strong>. Nous mettons notre expertise et notre savoir-faire au service des
+                                entreprises pour leur fournir des solutions électriques adaptées et performantes.
+                                Découvrez notre galerie de photos de projets industriels et les témoignages de clients
+                                satisfaits pour vous faire une idée de la qualité de notre travail et de l'engagement de
+                                notre équipe.</p>
                         </div>
                     </div>
                 </section>
                 <section>
                     <div className="secondary-section-padding">
                         <div className={styles.supportPageText}>
-                            <h2>Construction neuve</h2>
-                            <p>Dans le cadre de la construction de maisons neuves, notre équipe d'électriciens à Nîmes
-                                intervient pour concevoir et réaliser des installations électriques conformes aux normes
-                                en vigueur et adaptées à vos besoins. Découvrez quelques exemples de nos réalisations en
-                                matière d'installations électriques pour des constructions neuves :</p>
+                            <h2>Nos réalisations</h2>
+                            <p>Notre entreprise d'électricité à Nîmes a réalisé de nombreux <strong>projets
+                                commerciaux</strong> pour des
+                                clients variés, tels que des commerces, des restaurants, des bureaux ou encore des
+                                établissements publics. Nous vous invitons à parcourir notre galerie de photos pour
+                                découvrir quelques-unes de nos réalisations :</p>
                         </div>
-                        <ImageSlider slides={newConstructionSlides}/>
-                    </div>
-                </section>
-                <section className="inverted-section">
-                    <div className="secondary-section-padding">
+                        <ImageSlider slides={commercialProjectsSlides}/>
                         <div className={styles.supportPageText}>
-                            <h2>Rénovation électrique</h2>
-                            <p>La rénovation électrique est essentielle pour garantir la sécurité et la performance de
-                                votre installation électrique. Notre équipe d'électriciens à Nîmes est spécialisée dans
-                                les travaux de rénovation électrique pour améliorer la qualité de vie de nos clients.
-                                Découvrez quelques exemples de nos réalisations en matière de rénovation électrique
-                                :</p>
+                            <p>Chacun de ces projets a été mené à bien grâce à notre expertise, notre réactivité et
+                                notre souci du détail. Notre objectif est de garantir la sécurité et la performance de
+                                vos installations électriques, tout en respectant vos contraintes budgétaires et vos
+                                délais.</p>
                         </div>
-                        <ImageSlider slides={renovationSlides}/>
                     </div>
                 </section>
-                <section>
-                    <div className="secondary-section-padding">
-                        <div className={styles.supportPageText}>
-                            <h2>Extension et aménagement</h2>
-                            <p>Les extensions et aménagements de votre habitation nécessitent souvent une adaptation de
-                                votre installation électrique. En tant qu'électricien à Nîmes, nous vous accompagnons
-                                dans ces projets pour garantir une intégration harmonieuse et sécurisée de vos
-                                équipements électriques. Découvrez quelques exemples de nos réalisations en matière
-                                d'extension et d'aménagement :</p>
-                        </div>
-                        <ImageSlider slides={extensionSlides}/>
-                    </div>
-                </section>
-                <Testimonials/>
+                <Testimonials testimonials={testimonials}/>
                 <section>
                     <div className="secondary-section-padding">
                         <div className="support-page-text-block">
                             <p>Faites confiance à notre équipe d'électriciens à Nîmes pour réaliser vos <strong>projets
-                                électriques commerciaux</strong>. Notre expertise et notre savoir-faire vous garantissent des
+                                électriques commerciaux</strong>. Notre expertise et notre savoir-faire vous
+                                garantissent des
                                 installations sécurisées et performantes, adaptées à vos besoins spécifiques. N'hésitez
                                 pas à nous contacter pour discuter de votre projet ou demander un devis personnalisé.
                                 Nous sommes impatients de vous accompagner et de vous apporter notre expertise en
                                 électricité pour les professionnels à Nîmes.</p>
 
-                            <p>Ne perdez plus de temps à chercher un électricien compétent et sérieux pour vos <strong>projets
-                                commerciaux</strong>. En faisant appel à notre entreprise d'électricité, vous bénéficiez de
+                            <p>Ne perdez plus de temps à chercher un électricien compétent et sérieux pour vos projets
+                                commerciaux. En faisant appel à notre entreprise d'électricité, vous bénéficiez de
                                 l'expérience et du professionnalisme d'une équipe dédiée à la réussite de vos projets.
                                 Notre engagement envers la qualité et la sécurité de nos installations est la garantie
                                 d'un travail réalisé dans les règles de l'art et conforme à vos attentes.</p>
 
                             <p>Pour en savoir plus sur nos services et discuter de votre projet, n'hésitez pas à nous
                                 contacter dès aujourd'hui. Ensemble, nous trouverons les meilleures solutions pour
-                                répondre à vos <strong>besoins en matière d'électricité</strong> et d'éclairage pour votre établissement
+                                répondre à vos besoins en matière d'électricité et d'éclairage pour votre établissement
                                 commercial. Faites le choix d'une entreprise reconnue à Nîmes pour assurer la réussite
-                                de vos projets électriques commerciaux ou <Link to={'/realisations/projets-industriels/'}>industriels <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link>.</p>
+                                de vos projets électriques commerciaux ou <Link
+                                    to={'/realisations/projets-industriels/'}>industriels <svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
+                                </svg></Link>.
+                            </p>
                         </div>
                     </div>
                 </section>
