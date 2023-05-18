@@ -10,38 +10,40 @@
     max-width: 900px;
     margin: 0 auto;
     padding-bottom: 0 !important;
+    gap: 90px;
 }
+
+.silo-card-container {
+    position: relative;
+    border-radius: var(--border-radius-primary);
+    box-shadow: var(--box-shadow-main);
+    overflow: hidden;
+}
+
 
 .silo-card {
     display: flex;
     align-items: center;
     gap: 50px;
     padding: 50px;
-    /*border: 1px solid var(--primary-accent-color);*/
-    background-color: var(--secondary-background-color);
-    border-radius: var(--border-radius-primary);
-    box-shadow: var(--box-shadow-main);
-    margin-bottom: 90px;
     z-index: 1;
-    overflow: hidden;
-    position: relative;
 }
 
-.silo-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-image: url("https://res.cloudinary.com/dg8awj55m/image/upload/v1683919915/website-lending/electricien-nimes/images/electricien-nimes-background.png");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.15;
-}
+/*.silo-card::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    z-index: -1;*/
+/*    background-image: url("https://res.cloudinary.com/dg8awj55m/image/upload/v1684328207/website-lending/electricien-nimes/images/electricien-nimes-background-image.webp");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    opacity: 0.15;*/
+/*}*/
 
-.silo-card:nth-child(even){
+.silo-card-container:nth-child(even) .silo-card {
     flex-direction: row-reverse;
 }
 
@@ -61,6 +63,17 @@
     flex-basis: 0;
 }
 
+.silo-card-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.silo-card-btn svg {
+    fill: var(--primary-accent-color);
+    width: 30px;
+}
+
 .silo-card-image {
     display: flex;
     flex-direction: column;
@@ -74,13 +87,19 @@
     object-fit: cover;
 }
 
+
 @media (max-width: 800px) {
-    .silo-card{
+    .silo-card {
         padding: 50px 25px;
     }
+
     .silo-card,
-    .silo-card:nth-child(even) {
+    .silo-card-container:nth-child(even) .silo-card {
         flex-direction: column-reverse;
+    }
+
+    .silo-card-btn {
+        flex-direction: column;
     }
 
     .mobile-hidden {

@@ -11,7 +11,6 @@ export function Head() {
     return (
         <>
             <html lang="fr" />
-            <link rel="alternate" href="https://eletricien-nimes.com/realisations/projets-industriels" hrefLang="fr"/>
             <title>Projets Électriques Industriels à Nîmes | Photos & Témoignages</title>
             <meta name="description" content="Explorez nos projets électriques industriels à Nîmes : photos et témoignages de clients satisfaits. Confiez-nous vos projets pour une réalisation impeccable."/>
             <meta name="robots" content="index, follow"/>
@@ -29,7 +28,7 @@ export default function IndustrialProjects() {
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682695420/website-lending/electricien-nimes/images/maison-moderne.jpg',
             slideAlt: 'Conception et réalisation de constructions neuves',
-            slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
+            slideText: 'InstallationElectrique d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682631078/website-lending/electricien-nimes/images/salon-moderne-1.jpg',
@@ -39,7 +38,7 @@ export default function IndustrialProjects() {
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659622/website-lending/electricien-nimes/images/maison-connectee.jpg',
             slideAlt: 'Conception et réalisation de constructions neuves',
-            slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
+            slideText: 'InstallationElectrique de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
         }
     ]
 
@@ -47,7 +46,7 @@ export default function IndustrialProjects() {
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682630773/website-lending/electricien-nimes/images/armoire-electrique-a-remplacer.jpg',
             slideAlt: "Rénovation d'installation électrique",
-            slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
+            slideText: 'InstallationElectrique d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659617/website-lending/electricien-nimes/images/cables-electriques-1.jpg',
@@ -57,7 +56,7 @@ export default function IndustrialProjects() {
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1681828281/website-lending/electricien-nimes/images/electricien-sur-chantier-3.jpg',
             slideAlt: "Rénovation d'installation électrique",
-            slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
+            slideText: 'InstallationElectrique de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
         }
     ]
 
@@ -65,7 +64,7 @@ export default function IndustrialProjects() {
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659624/website-lending/electricien-nimes/images/veranda-extension.jpg',
             slideAlt: 'Extension et aménagement d\'habitations',
-            slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
+            slideText: 'InstallationElectrique d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
         },
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659623/website-lending/electricien-nimes/images/panneaux-solaires.jpg',
@@ -75,7 +74,7 @@ export default function IndustrialProjects() {
         {
             slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659613/website-lending/electricien-nimes/images/allee-lumineuse.jpg',
             slideAlt: 'Extension et aménagement d\'habitations',
-            slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
+            slideText: 'InstallationElectrique de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
         }
     ]
 

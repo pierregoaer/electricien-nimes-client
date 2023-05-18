@@ -26,7 +26,7 @@ export default function Nav() {
                         <Link to={'/services'} onClick={handleDisplayMobileNav}
                               className={styles.navMainNavigationTitle}>Services</Link>
                         <ul className={styles.navMainNavigationDropdownList}>
-                            <li><Link to={'/services/installation'} onClick={handleDisplayMobileNav}>Installation</Link>
+                            <li><Link to={'/services/installation-electrique'} onClick={handleDisplayMobileNav}>Installation</Link>
                             </li>
                             <li><Link to={'/services/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation
                                 et mise aux normes</Link></li>

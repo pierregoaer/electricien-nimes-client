@@ -9,7 +9,6 @@ export function Head({data}) {
     return (
         <>
             <html lang="fr" />
-            <link rel="alternate" href={`https://electricien-nimes/blog/${curBlog.url}`} hrefLang="fr"/>
             <title>{curBlog.title}</title>
             <meta name="description" content={curBlog.meta_description}/>
             <meta name="robots" content="index, follow"/>

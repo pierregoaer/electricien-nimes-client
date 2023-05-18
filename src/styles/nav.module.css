@@ -26,7 +26,6 @@
 
 .nav-main-navigation li {
     font-size: 1.1rem;
-    padding-block: 5px;
 }
 
 .nav-main-navigation-dropdown:hover {
@@ -56,10 +55,17 @@
     .nav-main-navigation-dropdown-list li {
         width: 300px;
         background-color: var(--tertiary-accent-color);
-        color: var(--black);
         /*color: var(--black);*/
-        padding: 10px 15px;
         border-top: 1px solid white;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .nav-main-navigation-dropdown-list li a {
+        width: 100%;
+        color: var(--black);
+        padding: 10px 15px;
+
     }
 
     .nav-main-navigation-dropdown-list li:hover {
@@ -71,7 +77,7 @@
     }
 }
 
-/*--- Mobile Nav ---*/
+/*--- Mobile Nav Hamburger ---*/
 .nav-mobile-nav-icon-container {
     display: none;
     width: 20px;

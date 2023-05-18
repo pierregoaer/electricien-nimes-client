@@ -10,12 +10,10 @@
 
 .testimonials-text,
 .testimonials-list {
-    flex-basis: 0;
-    flex-grow: 1;
+    flex: 1 1 0;
 }
 .testimonials-list {
-    flex-grow: 2;
-
+    flex: 1 1 0;
 }
 
 .testimonials-text h2,

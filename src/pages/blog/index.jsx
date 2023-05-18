@@ -9,7 +9,6 @@ export function Head() {
     return (
         <>
             <html lang="fr" />
-            <link rel="alternate" href="https://eletricien-nimes.com/blog" hrefLang="fr"/>
             <title>Blog électricité à Nîmes |  Découvrez nos conseils en électricité</title>
             <meta name="description" content="Parcourez tous nos conseils pour vos projets électriques. Faites confiance à nos électriciens."/>
             <meta name="robots" content="index, follow"/>

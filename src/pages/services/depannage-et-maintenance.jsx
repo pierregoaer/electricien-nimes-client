@@ -8,14 +8,13 @@ export function Head() {
     return (
         <>
             <html lang="fr"/>
-            <link rel="alternate" href="https://eletricien-nimes.com/services/depannage-et-maintenance" hrefLang="fr"/>
-            <title>Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes</title>
+            <title>Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes |  Électricien Nîmes</title>
             <meta name="description"
                   content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
             <meta name="robots" content="index, follow"/>
             <meta property="og:url" content="https://eletricien-nimes.com/services/depannage-et-maintenance"/>
             <meta property="og:type" content="website"/>
-            <meta property="og:title" content="Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes"/>
+            <meta property="og:title" content="Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes |  Électricien Nîmes"/>
             <meta property="og:description"
                   content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
             <meta property="og:image"
@@ -33,7 +32,7 @@ export default function Maintenance() {
                         <div className="support-page-text-block">
                             <h1>Dépannage et maintenance à Nîmes : Urgences 24/7, diagnostic et réparation de pannes,
                                 remplacement de composants défectueux</h1>
-                            <p>Les pannes électriques peuvent survenir à tout moment et causer de nombreux désagréments.
+                            <p><strong>Les pannes électriques</strong> peuvent survenir à tout moment et causer de nombreux désagréments.
                                 En tant qu'électricien à Nîmes, nous vous proposons un service de dépannage électrique
                                 rapide et efficace pour résoudre vos problèmes électriques. Qu'il s'agisse d'une urgence
                                 électrique, d'un diagnostic de panne ou d'un remplacement de composants défectueux,
@@ -47,11 +46,10 @@ export default function Maintenance() {
                     <div className="secondary-section-padding">
                         <div className={styles.supportPageText}>
                             <h2>Urgences électriques 24/7</h2>
-                            <p>Les urgences électriques peuvent être à l'origine de nombreux problèmes, tels que des
+                            <p><strong>Les urgences électriques</strong> peuvent être à l'origine de nombreux problèmes, tels que des
                                 coupures de courant, des courts-circuits ou des risques d'incendie. Il est important de
                                 faire appel à un électricien à Nîmes capable d'intervenir rapidement. Ainsi, vous
-                                minimisez les désagréments et garantissez votre sécurité. Notre service d'urgence
-                                électrique est disponible 24h/24 et 7j/7 pour vous assister en cas de besoin.</p>
+                                minimisez les désagréments et garantissez votre sécurité. Notre service d'<strong>urgence électrique</strong> est disponible 24h/24 et 7j/7 pour vous assister en cas de besoin.</p>
 
                             <p>Notre service d'urgence électrique à Nîmes est simple et rapide :</p>
                         </div>
@@ -59,7 +57,7 @@ export default function Maintenance() {
                             <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
                                 <p>Contactez-nous par téléphone ou via notre formulaire en ligne pour signaler votre
-                                    problème électrique</p>
+                                    <strong>problème électrique</strong></p>
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
@@ -73,32 +71,20 @@ export default function Maintenance() {
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>
-                            <p>Parmi les urgences électriques les plus courantes à Nîmes, on retrouve :</p>
+                            <p>Parmi les <strong>urgences électriques</strong> les plus courantes à Nîmes, on retrouve :</p>
                         </div>
                         <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card bulleted-list-card-6">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
                                 <p>Les coupures de courant</p>
                             </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
                                 <p>Les courts-circuits</p>
                             </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
                                 <p>Les surchauffes de câbles ou de prises</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>Les problèmes de disjoncteur</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>XXX</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>XXX</p>
                             </li>
                         </ul>
                     </div>
@@ -108,10 +94,10 @@ export default function Maintenance() {
                         <div className={styles.supportPageText}>
                             <h2>Diagnostic et réparation de pannes</h2>
                             <p>Un diagnostic précis et une réparation rapide sont essentiels pour résoudre efficacement
-                                une panne électrique. Faire appel à un électricien à Nîmes vous garantit un service
+                                une <strong>panne électrique</strong>. Faire appel à un électricien à Nîmes vous garantit un service
                                 professionnel et adapté à vos besoins, tout en respectant les normes de sécurité en
                                 vigueur.</p>
-                            <p>Le diagnostic d'une panne électrique par notre équipe d'électriciens à Nîmes se déroule
+                            <p>Le diagnostic d'une <strong>panne électrique</strong> par notre équipe d'électriciens à Nîmes se déroule
                                 en plusieurs étapes :</p>
                         </div>
                         <ul className="numbered-list-cards">
@@ -126,36 +112,6 @@ export default function Maintenance() {
                                 problèmes
                             </li>
                         </ul>
-
-                        <div className={styles.supportPageText}>
-                            <p>Parmi les pannes électriques les plus courantes à Nîmes, on retrouve :</p>
-                        </div>
-                        <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>Les problèmes de disjoncteurs ou de fusibles</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>Les courts-circuits</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>Les pannes d'éclairage</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>Les problèmes de prises ou d'interrupteurs</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>XXX</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>XXX</p>
-                            </li>
-                        </ul>
                     </div>
                 </section>
                 <section>
@@ -163,9 +119,9 @@ export default function Maintenance() {
                         <div className={styles.supportPageText}>
                             <h2>Remplacement de composants défectueux</h2>
                             <p>
-                                Les composants défectueux de votre installation électrique peuvent causer des pannes,
+                                Les composants défectueux de <Link to={'/services/installation-electrique/'}>votre installation électrique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> peuvent causer des pannes,
                                 une surconsommation d'énergie ou des risques d'accident. Il est donc important de les
-                                remplacer pour garantir le bon fonctionnement et la sécurité de votre installation.
+                                remplacer pour <strong>garantir le bon fonctionnement et la sécurité de votre installation</strong>.
                             </p>
 
                             <p>Le remplacement de composants défectueux par notre équipe d'électriciens à Nîmes implique
@@ -173,43 +129,28 @@ export default function Maintenance() {
                         </div>
                         <ul className="numbered-list-cards">
                             <li className="numbered-list-card">
-                                Le diagnostic de l'installation pour identifier les composants défectueux
+                                <p>Le diagnostic de l'installation pour identifier les composants défectueux</p>
                             </li>
                             <li className="numbered-list-card">
-                                La proposition de solutions adaptées, incluant le remplacement des composants concernés
+                                <p>La proposition de solutions adaptées, incluant le remplacement des composants concernés</p>
                             </li>
                             <li className="numbered-list-card">
-                                La réalisation des travaux de remplacement et la vérification du bon fonctionnement de
-                                l'installation
+                                <p><Link to={'/services/renovation-et-mise-aux-normes/'}>La réalisation des travaux de remplacement et la vérification du bon fonctionnement de
+                                l'installation <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link></p>
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>
                             <p>Parmi les composants électriques les plus couramment remplacés, on retrouve :</p>
                         </div>
                         <ul className="bulleted-list-cards">
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <p>Les disjoncteurs</p>
                             </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>Les Les fusibles</p>
+                            <li className="bulleted-list-card bulleted-list-card-3">
+                                <p><Link to={'/services/eclairage/'}>Les prises et les interrupteurs d'éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link></p>
                             </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>Les prises et les interrupteurs</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
+                            <li className="bulleted-list-card bulleted-list-card-3">
                                 <p>Les câbles électriques</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>XXX</p>
-                            </li>
-                            <li className="bulleted-list-card bulleted-list-card-6">
-                                <h4></h4>
-                                <p>XXX</p>
                             </li>
                         </ul>
                     </div>
@@ -220,17 +161,17 @@ export default function Maintenance() {
                             <p>
                                 En cas de panne ou d'urgence électrique, il est essentiel de pouvoir compter sur un
                                 électricien professionnel et réactif. À Nîmes, notre équipe d'électriciens qualifiés
-                                vous propose un service de dépannage électrique de qualité, incluant la gestion des
+                                vous propose un <strong>service de dépannage électrique</strong> de qualité, incluant la gestion des
                                 urgences, le diagnostic et la réparation de pannes, ainsi que le remplacement de
                                 composants défectueux.
                             </p>
 
                             <p>
                                 N'hésitez pas à nous contacter pour obtenir un devis personnalisé pour vos besoins en
-                                dépannage électrique à Nîmes. Nous mettons notre expertise et notre savoir-faire à votre
-                                service pour vous offrir des solutions adaptées à vos besoins et un service rapide et
-                                efficace. Faites confiance à notre équipe pour vous accompagner dans la résolution de
-                                vos problèmes électriques et assurer la sécurité et la performance de votre
+                                <strong>dépannage électrique</strong> à Nîmes. Nous mettons notre expertise et notre savoir-faire à votre
+                                service pour vous offrir des solutions électriques et <Link to={'/services/domotique-et-objets-connectes/'}>domotiques <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> adaptées à vos besoins et un service rapide et
+                                efficace. Faites confiance à notre équipe pour vous accompagner dans la <strong>résolution de
+                                vos problèmes électriques</strong> et assurer la sécurité et la performance de votre
                                 installation.
                             </p>
                         </div>

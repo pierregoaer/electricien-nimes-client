@@ -6,7 +6,6 @@ export function Head() {
     return (
         <>
             <html lang="fr" />
-            <link rel="alternate" href="https://eletricien-nimes.com/contact" hrefLang="fr"/>
             <title>Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit</title>
             <meta name="description" content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
             <meta name="robots" content="index, follow"/>
@@ -130,7 +129,7 @@ export default function Contact() {
                             <label htmlFor="service">Quel type de service recherchez-vous ?*</label>
                             <select name="service" defaultValue={'DEFAULT'} onChange={handleChange}>
                                 <option value="DEFAULT" disabled>Veuillez choisir une option</option>
-                                <option value="Installation">Installation</option>
+                                <option value="InstallationElectrique">InstallationElectrique</option>
                                 <option value="Rénovation et mise aux normes">Rénovation et mise aux normes</option>
                                 <option value="Rénovation et mise aux normes">Dépannage et maintenance</option>
                                 <option value="Eclairage">Eclairage</option>

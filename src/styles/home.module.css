@@ -6,14 +6,6 @@
     position: relative;
 }
 
-.home-hero-main-background-img {
-    /*position: absolute;*/
-    width: 100%;
-    height: 100%;
-    opacity: 0.15;
-    z-index: -10;
-}
-
 /*.home-hero-container::before {*/
 /*    content: "";*/
 /*    position: absolute;*/
@@ -22,7 +14,7 @@
 /*    bottom: 0;*/
 /*    left: 0;*/
 /*    z-index: -1;*/
-/*    background-image: url("https://res.cloudinary.com/dg8awj55m/image/upload/v1683919915/website-lending/electricien-nimes/images/electricien-nimes-background.png");*/
+/*    background-image: url("https://res.cloudinary.com/dg8awj55m/image/upload/v1684328207/website-lending/electricien-nimes/images/electricien-nimes-background-image.webp");*/
 /*    background-size: cover;*/
 /*    background-position: center;*/
 /*    opacity: 0.15;*/
@@ -117,56 +109,71 @@
 }
 
 
-.home-services-service {
+.home-services-service-container {
     position: relative;
-    padding: 45px;
     /*background-color: white;*/
     border-radius: .5rem;
     background-color: var(--secondary-background-color);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
     z-index: 1;
+    overflow: hidden;
+}
+
+.home-services-service {
+    padding: 45px;
 }
 
 
-.home-services-service::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    background-image: url("https://res.cloudinary.com/dg8awj55m/image/upload/v1683919915/website-lending/electricien-nimes/images/electricien-nimes-background.png");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.15;
-}
+/*.home-services-service::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    z-index: -1;*/
+/*    background-image: url("https://res.cloudinary.com/dg8awj55m/image/upload/v1684328207/website-lending/electricien-nimes/images/electricien-nimes-background-image.webp");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    opacity: 0.15;*/
+/*}*/
 
-.home-services-service:nth-child(even) {
+.home-services-service-container:nth-child(even) {
     transform: translateY(150px);
 }
 
-.home-services-service svg {
+.home-services-service-icon svg {
     width: 60px;
     height: 60px;
     fill: var(--primary-accent-color);
     margin-bottom: 25px;
 }
 
-.home-services-service:nth-child(2) svg {
+.home-services-service-container:nth-child(2) .home-services-service-icon svg {
     fill: white;
     stroke: var(--primary-accent-color);
 }
 
-.home-services-service h4 {
+.home-services-service-container h4 {
     font-size: 1.6rem;
     margin-bottom: 20px;
 }
 
-.home-services-service p {
+.home-services-service-container p {
     font-size: 1.2rem;
     color: var(--secondary-text-color);
     margin-bottom: 30px;
+}
+
+.home-services-service-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-services-service-btn svg {
+    fill: var(--primary-accent-color);
+    width: 30px;
 }
 
 /* -- FAQ section -- */
@@ -285,7 +292,7 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .home-hero-container {
         height: auto;
         display: block;
@@ -311,15 +318,21 @@
         grid-auto-rows: auto;
     }
 
-    .home-services-service {
-        padding: 40px 20px;
+    .home-services-service-container {
+        padding: 0;
     }
 
-    .home-services-service:nth-child(even) {
+    .home-services-service-container:nth-child(even) {
         transform: translateY(0px);
     }
 
-    .home-services-service p {
+    .home-services-service-container p {
         font-size: 1.1rem;
+    }
+
+    .home-services-service-btn {
+        text-align: center;
+        flex-direction: column;
+
     }
 }

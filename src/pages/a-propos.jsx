@@ -2,13 +2,12 @@ import React from 'react';
 import {Link} from 'gatsby';
 
 import Layout from "../components/Layout";
-import * as styles from '../styles/about-us.module.css';
+// import * as styles from '../styles/about-us.module.css';
 
 export function Head() {
     return (
         <>
             <html lang="fr"/>
-            <link rel="alternate" href="https://eletricien-nimes.com/a-propos" hrefLang="fr"/>
             <title>À Propos de Notre Entreprise Électrique à Nîmes | Qualité & Sécurité</title>
             <meta name="description"
                   content="Découvrez notre entreprise d'électriciens à Nîmes : certifications, compétences, valeurs et engagement envers la qualité et la sécurité de nos clients."/>
