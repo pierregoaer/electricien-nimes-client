@@ -112,7 +112,7 @@ export default function Contact() {
                                 assurer votre sécurité et votre confort.</p>
                         </div>
                     </div>
-                    <form>
+                    <form name="contact" netlify>
                         <h1>Contact</h1>
                         <div className={styles.contactFormField}>
                             <label htmlFor="name">Nom*</label>

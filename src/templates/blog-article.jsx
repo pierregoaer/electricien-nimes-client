@@ -9,12 +9,12 @@ export function Head({data}) {
     return (
         <>
             <html lang="fr" />
-            <title>{curBlog.title}</title>
+            <title>{curBlog.meta_title}</title>
             <meta name="description" content={curBlog.meta_description}/>
             <meta name="robots" content="index, follow"/>
             <meta property="og:url" content={`https://electricien-nimes/blog/${curBlog.url}`}/>
             <meta property="og:type" content="article"/>
-            <meta property="og:title" content={curBlog.title}/>
+            <meta property="og:title" content={curBlog.meta_title}/>
             <meta property="og:description" content={curBlog.meta_description}/>
             <meta property="og:image" content={`https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_500,w_800,f_auto/v1682719065/website-lending/electricien-nimes/images/${curBlog.hero_image_url}`}/>
         </>

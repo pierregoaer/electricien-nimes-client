@@ -8,20 +8,23 @@ import * as styles from '../../styles/blog-page.module.css';
 export function Head() {
     return (
         <>
-            <html lang="fr" />
-            <title>Blog électricité à Nîmes |  Découvrez nos conseils en électricité</title>
-            <meta name="description" content="Parcourez tous nos conseils pour vos projets électriques. Faites confiance à nos électriciens."/>
+            <html lang="fr"/>
+            <title>Blog électricité à Nîmes | Découvrez nos conseils en électricité</title>
+            <meta name="description"
+                  content="Parcourez tous nos conseils pour vos projets électriques. Faites confiance à nos électriciens."/>
             <meta name="robots" content="index, follow"/>
             <meta property="og:url" content="https://eletricien-nimes.com/blog"/>
             <meta property="og:type" content="blog"/>
             <meta property="og:title" content="Blog électricité à Nîmes |  Découvrez nos conseils en électricité"/>
-            <meta property="og:description" content="Parcourez tous nos conseils pour vos projets électriques. Faites confiance à nos électriciens."/>
-            <meta property="og:image" content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/conseils-electricite.png"/>
+            <meta property="og:description"
+                  content="Parcourez tous nos conseils pour vos projets électriques. Faites confiance à nos électriciens."/>
+            <meta property="og:image"
+                  content="https://res.cloudinary.com/dg8awj55m/image/upload/v1683849342/website-lending/electricien-nimes/meta-images/conseils-electricite.png"/>
         </>
     )
 }
 
-export default function Blogs({ data }) {
+export default function Blogs({data}) {
     const blogs = data.allBlogArticle.nodes
     const blogCardElements = blogs.map(blog => <BlogCard key={blog.id} blogData={blog}/>)
     return (
@@ -30,11 +33,17 @@ export default function Blogs({ data }) {
                 <div className="section-inner hero-section-padding">
                     <div className="blog-page-text-block">
                         <h1>Blog</h1>
-                        <p>Notre entreprise d'électricité à Nîmes se distingue par son expertise, ses compétences et ses
-                            valeurs. Nous sommes fiers de mettre notre savoir-faire au service de nos clients pour leur
-                            offrir des prestations de qualité et garantir leur satisfaction. Découvrez nos
-                            certifications, nos formations et nos compétences, ainsi que notre engagement envers la
-                            qualité et la sécurité dans le domaine de l'électricité.</p>
+                        <p>Que vous soyez un propriétaire résidentiel, un professionnel ou un entrepreneur en
+                            électricité, vous retrouverez sur cette page tous nos conseils pertinents pour vous
+                            accompagner dans vos projets électriques.</p>
+
+                        <p>Ici, vous découvrirez nos articles sur divers sujets, tels que l'installation électrique, la
+                            rénovation, la sécurité, l'éclairage, la domotique et bien d'autres sujets d’actualité. Si
+                            vous avez des questions ou des sujets spécifiques que vous aimeriez voir abordés, n'hésitez
+                            pas à nous contacter. Notre équipe d'experts en électricité se fera un plaisir de vous aider
+                            et d’écrire à ce sujet !</p>
+
+                        <p>Ensemble, nous construisons un avenir électrique sûr et performant !</p>
                     </div>
                 </div>
             </section>
@@ -52,7 +61,7 @@ export default function Blogs({ data }) {
 
 export const query = graphql`
     query AllBlogs {
-        allBlogArticle {
+        allBlogArticle(sort: {originalId: DESC}) {
             nodes {
                 url
                 title

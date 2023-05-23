@@ -55,7 +55,7 @@ export default function Realizations() {
                             />
                             <div className={styles.siloCard}>
                                 <div className={styles.siloCardText}>
-                                    <h4>Projets résidentiels</h4>
+                                    <h2>Projets résidentiels</h2>
                                     <p>Nos réalisations dans le domaine résidentiel comprennent une grande variété de
                                         projets, allant de la construction neuve à la rénovation, en passant par
                                         l'installation d'éclairage et la mise en place de systèmes domotiques. Grâce à
@@ -112,7 +112,7 @@ export default function Realizations() {
                             />
                             <div className={styles.siloCard}>
                                 <div className={styles.siloCardText}>
-                                    <h4>Projets commerciaux</h4>
+                                    <h2>Projets commerciaux</h2>
                                     <p>Nos réalisations dans le <strong>secteur commercial</strong> témoignent de notre capacité à
                                         répondre
                                         aux besoins spécifiques des entreprises et des commerces. Nous avons mené à bien
@@ -167,7 +167,7 @@ export default function Realizations() {
                             />
                             <div className={styles.siloCard}>
                                 <div className={styles.siloCardText}>
-                                    <h4>Projets industriels</h4>
+                                    <h2>Projets industriels</h2>
                                     <p>Nos réalisations dans le domaine industriel montrent notre expertise et notre
                                         savoir-faire en matière d'<strong>installations électriques pour des sites de
                                         production</strong>, des usines ou des entrepôts. Nous avons réalisé des projets d'installation et de

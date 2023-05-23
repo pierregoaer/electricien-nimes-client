@@ -49,7 +49,7 @@ article {
 }
 
 .blog-article-body a {
-    color: var(--tertiary-text-color);
+    color: var(--primary-accent-color);
 }
 
 .blog-article-body li {
