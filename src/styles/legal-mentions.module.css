@@ -1,0 +1,20 @@
+.legal-mentions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.legal-mentions h1,
+.legal-mentions h2 {
+    color: var(--primary-accent-color);
+}
+
+.legal-mentions h2 {
+    font-size: 2rem;
+    margin-top: 60px;
+}
+
+.legal-mentions ul {
+    margin-bottom: 30px;
+}

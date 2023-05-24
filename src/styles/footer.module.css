@@ -78,11 +78,13 @@
     fill: var(--primary-accent-color);
 }
 
-.footer-copyrights {
+.footer-copyrights,
+.footer-copyrights a {
     text-align: center;
     margin-top: 25px;
     color: #737373;
     font-weight: 200;
+    font-size: 1.1rem;
 }
 
 .footer-main {

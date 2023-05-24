@@ -70,7 +70,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={styles.footerCopyrights}>
-                    © {new Date().getFullYear()}, Electricien Nîmes
+                    © {new Date().getFullYear()}, Electricien Nîmes | <Link to='/mentions-legales'>Mentions Légales</Link>
                 </div>
             </div>
         </section>
