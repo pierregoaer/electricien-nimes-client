@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import * as styles from '../styles/contact.module.css'
 import Layout from "../components/Layout";
 import {navigate} from "gatsby";
+import axios from "axios";
 
 export function Head() {
     return (
@@ -48,35 +49,26 @@ export default function Contact() {
         });
     }
 
-
-    function handleSubmit(event) {
-        event.preventDefault();
+    const handleSubmit = async (e) => {
+        e.preventDefault();
         if (!formData.name || !formData.email || !formData.service || !formData.timeframe || !formData.budget || !formData.message) {
             window.alert("Certains champs requis sont vides.")
             return
         }
         setMessageSubmitted(prev => !prev)
-        const dataJSON = JSON.stringify(formData);
-
-        fetch('https://api.electricien-nimes.com/contact', {
-            method: 'POST',
-            mode: 'cors',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: dataJSON,
-        }).then(response => {
-            if (response.status === 200) {
-                setFormData(initialFormData)
-                setMessageSubmitted(false)
-                navigate('/merci')
-            } else {
-                setMessageSubmitted(false)
-                window.alert("Une erreur s'est produite, veuillez réessayer.")
-
-            }
-        });
-    }
+        try {
+            await axios.post(
+                "https://api.electricien-nimes.com/contact",
+                formData
+            );
+            setFormData(initialFormData)
+            await navigate('/merci')
+        } catch (error) {
+            console.error(error);
+            window.alert("Une erreur s'est produite. Veuillez réessayer svp.")
+        }
+        setMessageSubmitted(false)
+    };
 
     return (
         <Layout>
