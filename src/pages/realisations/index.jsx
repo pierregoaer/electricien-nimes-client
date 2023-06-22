@@ -76,7 +76,7 @@ export default function Realizations() {
                                         l'éclairage. Enfin, notre expertise en domotique et objets connectés nous a
                                         permis de proposer des solutions innovantes pour améliorer le confort et la sécurité
                                         des <strong>habitations de nos clients</strong>.</p>
-                                    <Link to={'/realisations/projets-residentiels'}
+                                    <Link to={'/realisations/projets-residentiels/'}
                                           className={`btn-tertiary ${styles.siloCardBtn}`}>
                                         Voir nos projets résidentiels
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -131,7 +131,7 @@ export default function Realizations() {
                                         d'activité. Enfin, nous avons accompagné nos clients dans la mise en place de
                                         systèmes domotiques et d'objets connectés pour faciliter la gestion et la
                                         sécurisation de leurs locaux.</p>
-                                    <Link to={'/realisations/projets-commerciaux'}
+                                    <Link to={'/realisations/projets-commerciaux/'}
                                           className={`btn-tertiary ${styles.siloCardBtn}`}>
                                         Voir nos projets commerciaux
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -187,7 +187,7 @@ export default function Realizations() {
                                         systèmes de gestion intelligente de l'énergie et de la domotique, permettant
                                         d'optimiser la consommation énergétique et de faciliter la surveillance et le
                                         contrôle des installations.</p>
-                                    <Link to={'/realisations/projets-industriels'}
+                                    <Link to={'/realisations/projets-industriels/'}
                                           className={`btn-tertiary ${styles.siloCardBtn}`}>
                                         Voir nos projets industriels
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

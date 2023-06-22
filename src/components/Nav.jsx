@@ -23,41 +23,41 @@ export default function Nav() {
                 </Link>
                 <ul className={styles.navMainNavigation} data-visible={mobileNavVisible}>
                     <li className={styles.navMainNavigationDropdown}>
-                        <Link to={'/services'} onClick={handleDisplayMobileNav}
+                        <Link to={'/services/'} onClick={handleDisplayMobileNav}
                               className={styles.navMainNavigationTitle}>Services</Link>
                         <ul className={styles.navMainNavigationDropdownList}>
-                            <li><Link to={'/services/installation-electrique'} onClick={handleDisplayMobileNav}>Installation</Link>
+                            <li><Link to={'/services/installation-electrique/'} onClick={handleDisplayMobileNav}>Installation</Link>
                             </li>
-                            <li><Link to={'/services/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation
+                            <li><Link to={'/services/renovation-et-mise-aux-normes/'} onClick={handleDisplayMobileNav}>Rénovation
                                 et mise aux normes</Link></li>
-                            <li><Link to={'/services/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage
+                            <li><Link to={'/services/depannage-et-maintenance/'} onClick={handleDisplayMobileNav}>Dépannage
                                 et
                                 maintenance</Link></li>
-                            <li><Link to={'/services/eclairage'} onClick={handleDisplayMobileNav}>Éclairage</Link></li>
-                            <li><Link to={'/services/domotique-et-objets-connectes'} onClick={handleDisplayMobileNav}>Domotique
+                            <li><Link to={'/services/eclairage/'} onClick={handleDisplayMobileNav}>Éclairage</Link></li>
+                            <li><Link to={'/services/domotique-et-objets-connectes/'} onClick={handleDisplayMobileNav}>Domotique
                                 et objets connectés</Link></li>
                         </ul>
                     </li>
                     <li className={styles.navMainNavigationDropdown}>
-                        <Link to={'/realisations'} onClick={handleDisplayMobileNav}
+                        <Link to={'/realisations/'} onClick={handleDisplayMobileNav}
                               className={styles.navMainNavigationTitle}>Réalisations</Link>
                         <ul className={styles.navMainNavigationDropdownList}>
-                            <li><Link to={'/realisations/projets-residentiels'} onClick={handleDisplayMobileNav}>Projets
+                            <li><Link to={'/realisations/projets-residentiels/'} onClick={handleDisplayMobileNav}>Projets
                                 résidentiels</Link></li>
-                            <li><Link to={'/realisations/projets-commerciaux'} onClick={handleDisplayMobileNav}>Projets
+                            <li><Link to={'/realisations/projets-commerciaux/'} onClick={handleDisplayMobileNav}>Projets
                                 commerciaux</Link></li>
-                            <li><Link to={'/realisations/projets-industriels'} onClick={handleDisplayMobileNav}>Projets
+                            <li><Link to={'/realisations/projets-industriels/'} onClick={handleDisplayMobileNav}>Projets
                                 industriels</Link></li>
                         </ul>
                     </li>
                     <li className={styles.navMainNavigationTitle}>
-                        <Link to={'/a-propos'} onClick={handleDisplayMobileNav}>À propos</Link>
+                        <Link to={'/a-propos/'} onClick={handleDisplayMobileNav}>À propos</Link>
                     </li>
                     <li className={styles.navMainNavigationTitle}>
-                        <Link to={'/blog'} onClick={handleDisplayMobileNav}>Blog</Link>
+                        <Link to={'/blog/'} onClick={handleDisplayMobileNav}>Blog</Link>
                     </li>
                 </ul>
-                <Link to={'/contact'} className={`btn-primary ${styles.navMainNavigationContact}`}>Devis gratuit</Link>
+                <Link to={'/contact/'} className={`btn-primary ${styles.navMainNavigationContact}`}>Devis gratuit</Link>
                 <div className={styles.navMobileNavIconContainer} data-visible={mobileNavVisible}
                      onClick={handleDisplayMobileNav}>
                     <div

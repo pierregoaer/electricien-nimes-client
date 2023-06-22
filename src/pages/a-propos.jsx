@@ -77,7 +77,7 @@ export default function AboutUs() {
                     <ul className="bulleted-list-cards">
                             <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p><Link to={'/services/installation'}>Installation</Link>, <Link to={'/services/renovation-et-mise-aux-normes/'}>rénovation</Link> et <Link to={'/services/depannage-et-maintenance'}>dépannage</Link> électrique pour les particuliers et les professionnels</p>
+                                <p><Link to={'/services/installation-electrique/'}>Installation</Link>, <Link to={'/services/renovation-et-mise-aux-normes/'}>rénovation</Link> et <Link to={'/services/depannage-et-maintenance/'}>dépannage</Link> électrique pour les particuliers et les professionnels</p>
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
@@ -85,7 +85,7 @@ export default function AboutUs() {
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p>Installation et conseil en <Link to={'/services/eclairage/'}>éclairage</Link>, <Link to={'/services/domotique-et-objets-connectes'}>domotique et objets connectés</Link></p>
+                                <p>Installation et conseil en <Link to={'/services/eclairage/'}>éclairage</Link>, <Link to={'/services/domotique-et-objets-connectes/'}>domotique et objets connectés</Link></p>
                             </li>
                         </ul>
                 </div>

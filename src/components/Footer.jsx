@@ -39,33 +39,33 @@ export default function Footer() {
 
                     </div>
                     <div className={`${styles.column} ${styles.flexColumn}`}>
-                        <Link to={'/services'} className={styles.columnTitle}>Services</Link>
-                        <Link to={'/services/installation-electrique'} className={styles.columnLink}>Installation</Link>
-                        <Link to={'/services/renovation-et-mise-aux-normes'} className={styles.columnLink}>Rénovation et
+                        <Link to={'/services/'} className={styles.columnTitle}>Services</Link>
+                        <Link to={'/services/installation-electrique/'} className={styles.columnLink}>Installation</Link>
+                        <Link to={'/services/renovation-et-mise-aux-normes/'} className={styles.columnLink}>Rénovation et
                             mise aux normes</Link>
-                        <Link to={'/services/depannage-et-maintenance'} className={styles.columnLink}>Dépannage et
+                        <Link to={'/services/depannage-et-maintenance/'} className={styles.columnLink}>Dépannage et
                             maintenance</Link>
-                        <Link to={'/services/eclairage'} className={styles.columnLink}>Éclairage</Link>
-                        <Link to={'/services/domotique-et-objets-connectes'} className={styles.columnLink}>Domotique et
+                        <Link to={'/services/eclairage/'} className={styles.columnLink}>Éclairage</Link>
+                        <Link to={'/services/domotique-et-objets-connectes/'} className={styles.columnLink}>Domotique et
                             objets connectés</Link>
                     </div>
                     <div className={`${styles.column} ${styles.flexColumn}`}>
-                        <Link to={'/realisations'} className={styles.columnTitle}>Réalisations</Link>
-                        <Link to={'/realisations/projets-residentiels'} className={styles.columnLink}>Projets
+                        <Link to={'/realisations/'} className={styles.columnTitle}>Réalisations</Link>
+                        <Link to={'/realisations/projets-residentiels/'} className={styles.columnLink}>Projets
                             résidentiels</Link>
-                        <Link to={'/realisations/projets-commerciaux'} className={styles.columnLink}>Projets
+                        <Link to={'/realisations/projets-commerciaux/'} className={styles.columnLink}>Projets
                             commerciaux</Link>
-                        <Link to={'/realisations/projets-industriels'} className={styles.columnLink}>Projets
+                        <Link to={'/realisations/projets-industriels/'} className={styles.columnLink}>Projets
                             industriels</Link>
                     </div>
                     <div className={`${styles.column} ${styles.flexColumn}`}>
                         <p className={styles.columnTitle}>Menu</p>
-                        <Link to={'/a-propos'} className="column-link">À propos</Link>
-                        <Link to={'/blog'} className="column-link">Blog</Link>
+                        <Link to={'/a-propos/'} className="column-link">À propos</Link>
+                        <Link to={'/blog/'} className="column-link">Blog</Link>
                     </div>
                     <div className={`${styles.column5} ${styles.column} ${styles.flexColumn}`}>
                         <p className={styles.columnTitle}>Vous cherchez un expert ?</p>
-                        <Link to={'/contact'} className="btn-primary">Demander un devis</Link>
+                        <Link to={'/contact/'} className="btn-primary">Demander un devis</Link>
 
                     </div>
                 </div>

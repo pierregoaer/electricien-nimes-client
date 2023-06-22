@@ -63,7 +63,7 @@ export default function Services() {
                                         veillant à respecter les normes en vigueur et à optimiser la sécurité et la
                                         performance
                                         de vos équipements.</p>
-                                    <Link to={'/services/installation-electrique'}
+                                    <Link to={'/services/installation-electrique/'}
                                           className={`btn-tertiary ${styles.siloCardBtn}`}>
                                         Voir nos services d'installation
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -94,7 +94,7 @@ export default function Services() {
                                         de tableaux électriques et la réparation de circuits électriques. Nos électriciens
                                         à Nîmes travaillent avec rigueur et professionnalisme pour assurer la qualité et
                                         la sécurité de vos installations.</p>
-                                    <Link to={'/services/renovation-et-mise-aux-normes'}
+                                    <Link to={'/services/renovation-et-mise-aux-normes/'}
                                           className={`btn-tertiary ${styles.siloCardBtn}`}>
                                         Voir nos services de rénovation
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -126,7 +126,7 @@ export default function Services() {
                                         et remplaçons les composants défectueux. Nos électriciens sont disponibles 24/7
                                         pour
                                         vous garantir une intervention rapide et efficace en toutes circonstances.</p>
-                                    <Link to={'/services/depannage-et-maintenance'}
+                                    <Link to={'/services/depannage-et-maintenance/'}
                                           className={`btn-tertiary ${styles.siloCardBtn}`}>
                                         Voir nos services de dépannage
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -159,7 +159,7 @@ export default function Services() {
                                         votre
                                         local commercial. Nous installons également des systèmes d'éclairage LED et
                                         domotique pour vous offrir un contrôle optimal de vos installations.</p>
-                                    <Link to={'/services/eclairage'}
+                                    <Link to={'/services/eclairage/'}
                                           className={`btn-tertiary ${styles.siloCardBtn}`}>
                                         Voir nos services en éclairage
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -190,7 +190,7 @@ export default function Services() {
                                         notre quotidien. Nous vous accompagnons dans l'<strong>installation de systèmes
                                         domotiques</strong> et d'objets connectés pour optimiser le confort, la sécurité et l'efficacité
                                         énergétique de votre habitation ou de votre entreprise.</p>
-                                    <Link to={'/services/domotique-et-objets-connectes'}
+                                    <Link to={'/services/domotique-et-objets-connectes/'}
                                           className={`btn-tertiary ${styles.siloCardBtn}`}>
                                         Voir nos services en domotique
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
