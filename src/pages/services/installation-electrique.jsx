@@ -33,7 +33,7 @@ export default function Installation() {
                                 Notre entreprise vous offre des solutions complètes et personnalisées pour tous vos besoins.
                                 Que ce soit : en installation électrique résidentielle, commerciale et industrielle, nous
                                 répondrons à votre besoin. Forts de notre expérience et de notre expertise, nous vous
-                                garantissons un travail <Link to={'/services/renovation-et-mise-aux-normes/'}> soigné et conforme aux normes électriques en vigueur <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link>. Ainsi,
+                                garantissons un travail <Link to={'/services/renovation-et-mise-aux-normes'}> soigné et conforme aux normes électriques en vigueur <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link>. Ainsi,
                                 nous
                                 vous garantissons une sécurité optimale.</p>
                         </div>
@@ -72,7 +72,7 @@ export default function Installation() {
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
-                                <p><Link to={'/services/domotique-et-objets-connectes/'}>La mise en place de systèmes de domotique et de gestion de l'énergie <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link></p>
+                                <p><Link to={'/services/domotique-et-objets-connectes'}>La mise en place de systèmes de domotique et de gestion de l'énergie <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link></p>
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
@@ -97,7 +97,7 @@ export default function Installation() {
                                 commerciaux.</p>
 
                             <p>Que vous possédiez un magasin, un restaurant, un hôtel ou un bureau, nous vous proposons
-                                des solutions sur-mesure. <Link to={'/blog/conseils-pour-economiser-l-energie-et-reduire-votre-facture-d-electricite/'}>Celles - ci permettent d’optimiser votre consommation
+                                des solutions sur-mesure. <Link to={'/blog/conseils-pour-economiser-l-energie-et-reduire-votre-facture-d-electricite'}>Celles - ci permettent d’optimiser votre consommation
                                 énergétique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> et garantir un fonctionnement optimal de vos équipements. Nous respectons
                                 scrupuleusement les normes en vigueur pour les installations électriques commerciales.
                                 De plus, nous vous conseillons sur les meilleures pratiques en matière d'économie
@@ -166,12 +166,12 @@ export default function Installation() {
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
-                                <p><Link to={'/services/eclairage/'}>L'installation de systèmes d'éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> et de sécurité adaptés aux environnements
+                                <p><Link to={'/services/eclairage'}>L'installation de systèmes d'éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> et de sécurité adaptés aux environnements
                                     industriels</p>
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
-                                <p><Link to={'/services/depannage-et-maintenance/'}>La maintenance préventive et curative <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> de vos installations
+                                <p><Link to={'/services/depannage-et-maintenance'}>La maintenance préventive et curative <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> de vos installations
                                     électriques</p>
                             </li>
                         </ul>

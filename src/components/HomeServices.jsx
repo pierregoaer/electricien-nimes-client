@@ -9,7 +9,7 @@ export default function HomeServices() {
         <section className={styles.homeServicesContainer}>
             <div className={`section-inner secondary-section-padding ${styles.homeServicesMain}`}>
                 <div className={styles.homeServicesText}>
-                    <Link to="/services/">
+                    <Link to="/services">
                         <h2>Nos Services</h2>
                     </Link>
                     <p>Intervention chez professionnels et particuliers dans la région de Nîmes, notre équipe d'experts
@@ -38,7 +38,7 @@ export default function HomeServices() {
                                 extension. Nos électriciens à Nîmes réalisent des installations conformes à la norme NF
                                 C
                                 15-100, en tenant compte de vos besoins et de vos contraintes.</p>
-                            <Link to={'/services/installation-electrique/'}
+                            <Link to={'/services/installation-electrique'}
                                   className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
                                 Voir nos services d'installation
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -73,7 +73,7 @@ export default function HomeServices() {
                                 vérifient la conformité de vos équipements et réalisent les travaux nécessaires pour
                                 vous
                                 garantir une installation sécurisée et performante.</p>
-                            <Link to={'/services/renovation-et-mise-aux-normes/'}
+                            <Link to={'/services/renovation-et-mise-aux-normes'}
                                   className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
                                 Voir nos services de rénovation
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -109,7 +109,7 @@ export default function HomeServices() {
                                 préventive de vos installations électriques pour prévenir les pannes et garantir leur
                                 bon
                                 fonctionnement.</p>
-                            <Link to={'/services/depannage-et-maintenance/'}
+                            <Link to={'/services/depannage-et-maintenance'}
                                   className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
                                 Voir nos services de dépannage
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -137,7 +137,7 @@ export default function HomeServices() {
                             <p>Nous vous proposons des solutions d'éclairage innovantes et économiques pour votre
                                 intérieur
                                 et votre extérieur.</p>
-                            <Link to={'/services/eclairage/'}
+                            <Link to={'/services/eclairage'}
                                   className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
                                 Voir nos services en éclairage
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -165,7 +165,7 @@ export default function HomeServices() {
                             <p>Nous vous proposons des systèmes de domotique pour faciliter la gestion de votre
                                 énergie et
                                 améliorer votre confort.</p>
-                            <Link to={'/services/domotique-et-objets-connectes/'}
+                            <Link to={'/services/domotique-et-objets-connectes'}
                                   className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
                                 Voir nos services en domotique
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

@@ -127,7 +127,7 @@ export default function Lighting() {
                             <p>Pour calculer les économies d'énergie réalisées grâce à nos conseils en éclairage, nous
                                 vous proposons un bilan énergétique personnalisé et des simulations pour estimer les
                                 économies potentielles sur votre facture d'électricité. Nous pourrons ainsi <Link
-                                    to={'/services/renovation-et-mise-aux-normes/'}>rénover
+                                    to={'/services/renovation-et-mise-aux-normes'}>rénover
                                     votre installation <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
                                             d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
@@ -164,7 +164,7 @@ export default function Lighting() {
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>
-                            <p><Link to={'/services/domotique-et-objets-connectes/'}>La domotique <svg
+                            <p><Link to={'/services/domotique-et-objets-connectes'}>La domotique <svg
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
@@ -200,7 +200,7 @@ export default function Lighting() {
                                 suffit de nous contacter pour un devis personnalisé. Nous vous proposerons des solutions
                                 adaptées à vos besoins et à votre budget, en tenant compte de vos attentes en termes de
                                 confort, d'économies d'énergie, de sécurité et en fonction de <Link
-                                    to={'/services/installation-electrique/'}>votre installation électrique <svg
+                                    to={'/services/installation-electrique'}>votre installation électrique <svg
                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path
                                         d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
@@ -228,7 +228,7 @@ export default function Lighting() {
                                 professionnel et
                                 humain, pour vous aider à améliorer votre confort et à réaliser des économies d'énergie
                                 grâce à des solutions d'éclairage modernes et performantes. Bien évidemment nous sommes
-                                aussi là pour assurer le suivi de votre <Link to={'/services/depannage-et-maintenance/'}>projet d’éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link>.
+                                aussi là pour assurer le suivi de votre <Link to={'/services/depannage-et-maintenance'}>projet d’éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link>.
                             </p>
                         </div>
                     </div>

@@ -35,7 +35,7 @@ export default function Renovation() {
                                 circuits</h1>
                             <p><strong>La rénovation électrique</strong> est une étape cruciale pour garantir la
                                 sécurité et la
-                                performance de votre <Link to={'/services/installation-electrique/'}>installation électrique <svg
+                                performance de votre <Link to={'/services/installation-electrique'}>installation électrique <svg
                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path
                                         d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
@@ -121,7 +121,7 @@ export default function Renovation() {
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-3">
                                 <h4></h4>
-                                <p><Link to={'/services/eclairage/'}>Faciliter la gestion de votre consommation
+                                <p><Link to={'/services/eclairage'}>Faciliter la gestion de votre consommation
                                     électrique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
                                             d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
@@ -171,7 +171,7 @@ export default function Renovation() {
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-6">
                                 <h4></h4>
-                                <p><Link to={'/services/domotique-et-objets-connectes/'}>Des appareils de domotique qui
+                                <p><Link to={'/services/domotique-et-objets-connectes'}>Des appareils de domotique qui
                                     grillent <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
                                             d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>

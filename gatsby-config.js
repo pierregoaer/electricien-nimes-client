@@ -2,6 +2,7 @@ module.exports = {
     siteMetadata: {
         siteUrl: `https://electricien-nimes.com`,
     },
+    trailingSlash: "never",
     plugins: [
         {
             resolve: `gatsby-plugin-manifest`,

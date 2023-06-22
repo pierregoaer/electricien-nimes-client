@@ -119,7 +119,7 @@ export default function Maintenance() {
                         <div className={styles.supportPageText}>
                             <h2>Remplacement de composants défectueux</h2>
                             <p>
-                                Les composants défectueux de <Link to={'/services/installation-electrique/'}>votre installation électrique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> peuvent causer des pannes,
+                                Les composants défectueux de <Link to={'/services/installation-electrique'}>votre installation électrique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> peuvent causer des pannes,
                                 une surconsommation d'énergie ou des risques d'accident. Il est donc important de les
                                 remplacer pour <strong>garantir le bon fonctionnement et la sécurité de votre installation</strong>.
                             </p>
@@ -135,7 +135,7 @@ export default function Maintenance() {
                                 <p>La proposition de solutions adaptées, incluant le remplacement des composants concernés</p>
                             </li>
                             <li className="numbered-list-card">
-                                <p><Link to={'/services/renovation-et-mise-aux-normes/'}>La réalisation des travaux de remplacement et la vérification du bon fonctionnement de
+                                <p><Link to={'/services/renovation-et-mise-aux-normes'}>La réalisation des travaux de remplacement et la vérification du bon fonctionnement de
                                 l'installation <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link></p>
                             </li>
                         </ul>
@@ -147,7 +147,7 @@ export default function Maintenance() {
                                 <p>Les disjoncteurs</p>
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-3">
-                                <p><Link to={'/services/eclairage/'}>Les prises et les interrupteurs d'éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link></p>
+                                <p><Link to={'/services/eclairage'}>Les prises et les interrupteurs d'éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link></p>
                             </li>
                             <li className="bulleted-list-card bulleted-list-card-3">
                                 <p>Les câbles électriques</p>
@@ -169,7 +169,7 @@ export default function Maintenance() {
                             <p>
                                 N'hésitez pas à nous contacter pour obtenir un devis personnalisé pour vos besoins en
                                 <strong>dépannage électrique</strong> à Nîmes. Nous mettons notre expertise et notre savoir-faire à votre
-                                service pour vous offrir des solutions électriques et <Link to={'/services/domotique-et-objets-connectes/'}>domotiques <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> adaptées à vos besoins et un service rapide et
+                                service pour vous offrir des solutions électriques et <Link to={'/services/domotique-et-objets-connectes'}>domotiques <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link> adaptées à vos besoins et un service rapide et
                                 efficace. Faites confiance à notre équipe pour vous accompagner dans la <strong>résolution de
                                 vos problèmes électriques</strong> et assurer la sécurité et la performance de votre
                                 installation.
