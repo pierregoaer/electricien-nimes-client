@@ -34,8 +34,8 @@ export default function Automation() {
                             <h1>Domotique et objets connectés à Nîmes : Installation et conseils pour votre maison
                                 connectée</h1>
                             <p>La domotique et les objets connectés révolutionnent notre quotidien en offrant un niveau
-                                de confort, de sécurité et d'efficacité énergétique inégalé. En tant qu'électricien à
-                                Nîmes, nous vous proposons une gamme complète de services. De la mise en place de
+                                de confort, de sécurité et d'efficacité énergétique inégalé. Nous vous proposons une
+                                gamme complète de services. De la mise en place de
                                 solutions domotiques jusqu’aux d'objets connectés adaptés à vos besoins.</p>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ export default function Automation() {
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
-                            </svg></Link> d'objets connectés par notre équipe d'électriciens à Nîmes comprend
+                            </svg></Link> d'objets connectés par notre équipe comprend
                                 plusieurs étapes clés :
                             </p>
                         </div>
@@ -112,9 +112,8 @@ export default function Automation() {
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>
-                            <p>Faire appel à un électricien professionnel pour l'<strong>installation d'objets
-                                connectés</strong> à Nîmes
-                                présente plusieurs avantages :</p>
+                            <p>Faire appel à un professionnel pour l'<strong>installation d'objets
+                                connectés</strong> présente plusieurs avantages :</p>
                         </div>
                         <ul className="bulleted-list-cards">
                             <li className="bulleted-list-card bulleted-list-card-3">
@@ -171,10 +170,9 @@ export default function Automation() {
                                 nouvelles fonctionnalités à l'avenir.
                             </li>
                             <li className="numbered-list-card">
-                                <strong>Consultez un professionnel</strong> : faites appel à un électricien spécialisé
-                                en domotique à
-                                Nîmes pour vous accompagner dans votre projet et vous conseiller sur les meilleures
-                                solutions à adopter.
+                                <strong>Consultez un professionnel</strong> : spécialisés
+                                en domotique à Nîmes, nous vous accompagnons dans votre projet et vous conseiller sur
+                                les meilleures solutions à adopter.
                             </li>
                         </ul>
                     </div>
@@ -183,7 +181,7 @@ export default function Automation() {
                     <div className="secondary-section-padding">
                         <div className="support-page-text-block">
                             <p>
-                                Notre équipe d'électriciens à Nîmes vous accompagne tout au long de votre <strong>projet
+                                Notre équipe vous accompagne tout au long de votre <strong>projet
                                 domotique</strong>, depuis la définition de vos besoins jusqu'à l'installation et la
                                 maintenance
                                 des équipements. Nous vous apportons notre expertise pour vous aider à choisir les

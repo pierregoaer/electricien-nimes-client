@@ -82,13 +82,12 @@ export default function CommercialProjects() {
                     <div className="hero-section-padding">
                         <div className="support-page-text-block">
                             <h1>Réalisations de projets électriques commerciaux à Nîmes : découvrez notre expertise</h1>
-                            <p>Nos électriciens à Nîmes sont spécialisés dans la <strong>réalisation de projets
-                                électriques
-                                industriels</strong>. Nous mettons notre expertise et notre savoir-faire au service des
-                                entreprises pour leur fournir des solutions électriques adaptées et performantes.
-                                Découvrez notre galerie de photos de projets industriels et les témoignages de clients
-                                satisfaits pour vous faire une idée de la qualité de notre travail et de l'engagement de
-                                notre équipe.</p>
+                            <p>Notre équipe est fière de vous présenter nos réalisations en
+                                matière de projets électriques commerciaux. Nous mettons notre expertise et notre
+                                savoir-faire au service des professionnels pour leur offrir des solutions électriques
+                                adaptées à leurs besoins. Découvrez notre galerie de photos de projets réalisés et les
+                                témoignages de clients satisfaits pour vous faire une idée de la qualité de notre
+                                travail et de l'engagement de notre équipe.</p>
                         </div>
                     </div>
                 </section>
@@ -115,7 +114,7 @@ export default function CommercialProjects() {
                 <section>
                     <div className="secondary-section-padding">
                         <div className="support-page-text-block">
-                            <p>Faites confiance à notre équipe d'électriciens à Nîmes pour réaliser vos <strong>projets
+                            <p>Faites confiance à notre équipe pour réaliser vos <strong>projets
                                 électriques commerciaux</strong>. Notre expertise et notre savoir-faire vous
                                 garantissent des
                                 installations sécurisées et performantes, adaptées à vos besoins spécifiques. N'hésitez
@@ -123,7 +122,7 @@ export default function CommercialProjects() {
                                 Nous sommes impatients de vous accompagner et de vous apporter notre expertise en
                                 électricité pour les professionnels à Nîmes.</p>
 
-                            <p>Ne perdez plus de temps à chercher un électricien compétent et sérieux pour vos projets
+                            <p>Ne perdez plus de temps à chercher un professionnel compétent et sérieux pour vos projets
                                 commerciaux. En faisant appel à notre entreprise d'électricité, vous bénéficiez de
                                 l'expérience et du professionnalisme d'une équipe dédiée à la réussite de vos projets.
                                 Notre engagement envers la qualité et la sécurité de nos installations est la garantie

@@ -88,15 +88,15 @@ export default function ResidentialProjects() {
                 <section className="support-page-hero">
                     <div className="hero-section-padding">
                         <div className="support-page-text-block">
-                            <h1>Projets résidentiels réalisés par votre électricien à Nîmes : Qualité et satisfaction
+                            <h1>Projets résidentiels réalisés par votre électricien : Qualité et satisfaction
                                 garanties</h1>
-                            <p>Vous recherchez un électricien de confiance à Nîmes pour vos projets résidentiels ?
+                            <p>Vous recherchez un électricien de confiance pour vos projets résidentiels ?
                                 Découvrez nos réalisations et l'expertise de notre équipe pour vous accompagner dans la
                                 réussite de vos <Link to={'/realisations/projets-commerciaux/'}>projets électriques <svg
                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path
                                         d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
-                                </svg></Link>. En tant qu'électricien à Nîmes, nous mettons un
+                                </svg></Link>. Nous mettons un
                                 point d'honneur à offrir un service de qualité, à la hauteur de vos attentes. Notre
                                 galerie de photos de projets résidentiels et les témoignages de nos clients satisfaits
                                 témoignent de notre engagement envers l'excellence et la satisfaction de nos
@@ -109,7 +109,7 @@ export default function ResidentialProjects() {
                     <div className="secondary-section-padding">
                         <div className={styles.supportPageText}>
                             <h2>Construction neuve</h2>
-                            <p>Dans le cadre de la construction de maisons neuves, notre équipe d'électriciens à Nîmes
+                            <p>Dans le cadre de la construction de maisons neuves, notre équipe
                                 intervient pour concevoir et réaliser des installations électriques conformes aux normes
                                 en vigueur et adaptées à vos besoins. Découvrez quelques exemples de nos réalisations en
                                 matière d'<strong>installations électriques pour des constructions neuves</strong> :</p>
@@ -122,7 +122,7 @@ export default function ResidentialProjects() {
                         <div className={styles.supportPageText}>
                             <h2>Rénovation électrique</h2>
                             <p>La rénovation électrique est essentielle pour garantir la sécurité et la performance de
-                                votre installation électrique. Notre équipe d'électriciens à Nîmes est spécialisée dans
+                                votre installation électrique. Notre équipe est spécialisée dans
                                 les travaux de rénovation électrique pour améliorer la qualité de vie de nos clients.
                                 Découvrez quelques exemples de nos <strong>réalisations en matière de rénovation
                                     électrique</strong>
@@ -136,7 +136,7 @@ export default function ResidentialProjects() {
                         <div className={styles.supportPageText}>
                             <h2>Extension et aménagement</h2>
                             <p>Les extensions et aménagements de votre habitation nécessitent souvent une adaptation de
-                                votre installation électrique. En tant qu'électricien à Nîmes, nous vous accompagnons
+                                votre installation électrique. Nous vous accompagnons
                                 dans ces projets pour garantir une intégration harmonieuse et sécurisée de vos
                                 équipements électriques. Découvrez quelques exemples de nos <strong>réalisations en
                                     matière
@@ -166,13 +166,13 @@ export default function ResidentialProjects() {
                 <section>
                     <div className="secondary-section-padding">
                         <div className="support-page-text-block">
-                            <p>En tant qu'électricien à Nîmes, nous sommes fiers de vous présenter nos réalisations en
+                            <p>Nous sommes fiers de vous présenter nos réalisations en
                                 matière de projets résidentiels. La satisfaction de nos clients est notre priorité. Nous
                                 mettons tout en œuvre pour vous offrir un service de qualité, adapté à vos besoins et à
                                 vos attentes.</p>
 
                             <p>N'hésitez pas à nous contacter pour discuter de votre projet résidentiel et obtenir un
-                                devis personnalisé. En choisissant notre entreprise d'électriciens à Nîmes, vous
+                                devis personnalisé. En choisissant notre entreprise, vous
                                 bénéficierez d'une expertise reconnue et d'un accompagnement personnalisé tout au long
                                 de votre projet. Ensemble, concrétisons vos projets électriques et assurons la sécurité,
                                 la performance et le confort de votre habitation ou de <Link

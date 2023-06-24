@@ -121,7 +121,7 @@ export default function AboutUs() {
                     </ul>
                     <div className="about-us-text-block">
                         <p>La sécurité est une priorité absolue pour notre entreprise d'électricité à Nîmes. Nous
-                            mettons tout en œuvre pour garantir la sécurité de nos clients et de nos électriciens :</p>
+                            mettons tout en œuvre pour garantir la sécurité de nos clients et de notre équipe :</p>
                     </div>
                     <ul className="bulleted-list-cards">
                         <li className="bulleted-list-card bulleted-list-card-3">
@@ -195,11 +195,11 @@ export default function AboutUs() {
                         </li>
                     </ul>
                     <div className="about-us-text-block">
-                        <p>En choisissant notre entreprise d'électricité à Nîmes, vous bénéficiez de l'expertise de
+                        <p>En choisissant notre entreprise, vous bénéficiez de l'expertise de
                             professionnels compétents, certifiés et engagés envers la qualité et la sécurité. Nous
                             mettons un point d'honneur à offrir un service personnalisé et humain pour répondre au mieux
                             à vos attentes et garantir votre satisfaction. Faites confiance à notre équipe
-                            d'électriciens pour tous vos projets électriques à Nîmes et bénéficiez de prestations de
+                             pour tous vos projets électriques à Nîmes et bénéficiez de prestations de
                             qualité, réalisées dans le respect des normes et des règles de l'art. N'hésitez pas à nous
                             contacter pour en savoir plus sur nos services et obtenir un devis personnalisé.</p>
                     </div>

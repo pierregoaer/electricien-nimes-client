@@ -163,8 +163,7 @@ export default function HomeServices() {
                             </div>
                             <h3>Domotique et objets connectés</h3>
                             <p>Nous vous proposons des systèmes de domotique pour faciliter la gestion de votre
-                                énergie et
-                                améliorer votre confort.</p>
+                                énergie et améliorer votre confort. Nos électriciens à Nîmes mettront tout en oeuvre pour facilier votre quotidien !</p>
                             <Link to={'/services/domotique-et-objets-connectes'}
                                   className={`btn-tertiary ${styles.homeServicesServiceBtn}`}>
                                 Voir nos services en domotique

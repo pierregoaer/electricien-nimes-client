@@ -35,11 +35,12 @@ export default function Renovation() {
                                 circuits</h1>
                             <p><strong>La rénovation électrique</strong> est une étape cruciale pour garantir la
                                 sécurité et la
-                                performance de votre <Link to={'/services/installation-electrique'}>installation électrique <svg
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path
-                                        d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
-                                </svg></Link>. En tant qu'électricien à Nîmes, nous vous
+                                performance de votre <Link to={'/services/installation-electrique'}>installation
+                                    électrique <svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path
+                                            d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
+                                    </svg></Link>. Nous vous
                                 proposons des services de rénovation adaptés à vos besoins. Nous vous proposons la mise
                                 aux normes, le remplacement de tableaux électriques et la réparation de circuits
                                 électriques. Laissez-vous convaincre par notre expertise et notre professionnalisme.
@@ -71,8 +72,8 @@ export default function Renovation() {
                                 <path
                                     d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
                             </svg></a>, qui garantit la
-                                sécurité et la performance des équipements électriques. En tant qu'électricien à Nîmes,
-                                nous veillons à respecter cette norme lors de la réalisation de vos travaux de mise aux
+                                sécurité et la performance des équipements électriques. Nous veillons à respecter cette
+                                norme lors de la réalisation de vos travaux de mise aux
                                 normes.
                             </p>
 
@@ -158,7 +159,7 @@ export default function Renovation() {
                                 dysfonctionnement de votre
                                 installation. Un circuit défectueux peut provoquer des pannes, une surconsommation
                                 d'énergie ou des risques d'accident. Il est donc important de faire appel à un
-                                électricien à Nîmes pour résoudre rapidement ces problèmes et assurer la sécurité de
+                                professionnel pour résoudre rapidement ces problèmes et assurer la sécurité de
                                 votre habitation ou de vos locaux professionnels.</p>
 
                             <p>Les signes d'un <strong>circuit électrique défectueux</strong> peuvent être variés, tels
@@ -195,9 +196,8 @@ export default function Renovation() {
                             </li>
                         </ul>
                         <div className={styles.supportPageText}>
-                            <p>Si vous constatez l'un de ces signes, il est recommandé de faire appel à un électricien à
-                                Nîmes. Notre expert pourra réaliser un diagnostic de votre installation et effectuer les
-                                réparations nécessaires.</p>
+                            <p>Si vous constatez l'un de ces signes notre expert pourra réaliser un diagnostic de votre
+                                installation et effectuer les réparations nécessaires.</p>
 
                             <p>La réparation d'un circuit électrique par notre équipe d'électriciens à Nîmes implique
                                 plusieurs étapes :</p>
@@ -221,7 +221,7 @@ export default function Renovation() {
                         <div className="support-page-text-block">
                             <p><strong>La rénovation électrique</strong> est un investissement important pour garantir
                                 la sécurité et la
-                                performance de votre installation électrique. En tant qu'électricien à Nîmes, nous vous
+                                performance de votre installation électrique. Nous vous
                                 proposons des services de qualité pour la mise aux normes, le remplacement de tableaux
                                 électriques et la réparation de circuits électriques. Nous mettons notre expertise et
                                 notre professionnalisme à votre service pour vous offrir des solutions adaptées à vos

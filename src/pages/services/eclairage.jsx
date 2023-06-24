@@ -31,11 +31,12 @@ export default function Lighting() {
                 <section className="support-page-hero">
                     <div className="hero-section-padding">
                         <div className="support-page-text-block">
-                            <h1>Éclairage à Nîmes : InstallationElectrique d'éclairage intérieur et extérieur, conseils en
+                            <h1>Éclairage à Nîmes : InstallationElectrique d'éclairage intérieur et extérieur, conseils
+                                en
                                 éclairage et
                                 économies d'énergie, éclairage LED et domotique</h1>
                             <p>L'éclairage est un élément essentiel dans nos vies, que ce soit pour notre confort ou
-                                notre sécurité. En tant qu'électricien à Nîmes, nous vous proposons des services de
+                                notre sécurité. Nous vous proposons des services de
                                 qualité pour l'<strong>installation d'éclairage</strong> intérieur et extérieur. Nous
                                 fournissons
                                 également des conseils personnalisés pour optimiser votre éclairage et réaliser des
@@ -54,7 +55,7 @@ export default function Lighting() {
                                 une ambiance chaleureuse, de mettre en valeur vos espaces de vie et de faciliter vos
                                 déplacements.</p>
 
-                            <p>En tant qu'électricien à Nîmes, nous vous proposons des <strong>solutions d'éclairage
+                            <p>Nous vous proposons des <strong>solutions d'éclairage
                                 intérieur</strong>
                                 sur mesure, incluant :</p>
                         </div>
@@ -102,7 +103,7 @@ export default function Lighting() {
                             <h2>Conseils en éclairage et économies d'énergie</h2>
                             <p><strong>Un éclairage bien pensé</strong> permet d'améliorer votre confort, de valoriser
                                 vos espaces de vie
-                                et de réaliser des économies d'énergie. En tant qu'électricien à Nîmes, nous vous
+                                et de réaliser des économies d'énergie. Nous vous
                                 accompagnons dans le choix de vos luminaires et vous conseillons sur les <strong>meilleures
                                     solutions d'éclairage</strong> en fonction de vos besoins et de votre budget.</p>
                             <p>Pour optimiser votre éclairage et réaliser des économies d'énergie, nous vous donnerons
@@ -170,8 +171,7 @@ export default function Lighting() {
                                     d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
                             </svg></Link> permet de contrôler et de gérer votre <strong>éclairage à distance</strong>,
                                 en utilisant une
-                                application sur votre smartphone ou une interface dédiée. En tant qu'électricien à
-                                Nîmes, nous vous proposons des solutions d'<strong>éclairage connecté</strong> pour
+                                application sur votre smartphone ou une interface dédiée. Nous vous proposons des solutions d'<strong>éclairage connecté</strong> pour
                                 améliorer votre
                                 confort et votre sécurité :
                             </p>
@@ -213,7 +213,7 @@ export default function Lighting() {
                     <div className="secondary-section-padding">
                         <div className="support-page-text-block">
                             <p>
-                                En tant qu'électricien à Nîmes, nous mettons notre expertise et notre savoir-faire à
+                                Nous mettons notre expertise et notre savoir-faire à
                                 votre service pour vous accompagner dans votre <strong>projet d'éclairage</strong>. Que
                                 ce soit pour
                                 l'installation d'éclairage intérieur ou extérieur, des conseils en éclairage et
@@ -228,7 +228,11 @@ export default function Lighting() {
                                 professionnel et
                                 humain, pour vous aider à améliorer votre confort et à réaliser des économies d'énergie
                                 grâce à des solutions d'éclairage modernes et performantes. Bien évidemment nous sommes
-                                aussi là pour assurer le suivi de votre <Link to={'/services/depannage-et-maintenance'}>projet d’éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path></svg></Link>.
+                                aussi là pour assurer le suivi de votre <Link to={'/services/depannage-et-maintenance'}>projet
+                                d’éclairage <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
+                                </svg></Link>.
                             </p>
                         </div>
                     </div>

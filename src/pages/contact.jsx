@@ -79,16 +79,16 @@ export default function Contact() {
                             <h3>Demandez un devis personnalisé</h3>
                             <p className="justified-text">Vous envisagez un projet électrique à Nîmes ? Que ce soit pour
                                 une installation, une
-                                rénovation, un dépannage ou un conseil en éclairage ou domotique, notre équipe
-                                d'électriciens qualifiés est à votre service. Pour obtenir un devis personnalisé et
+                                rénovation, un dépannage ou un conseil en éclairage ou domotique, notre équipe de
+                                professionnels qualifiés est à votre service. Pour obtenir un devis personnalisé et
                                 adapté à vos besoins, veuillez remplir le formulaire ci-dessous en détaillant votre
                                 projet. Nous vous répondrons dans les plus brefs délais avec une proposition adaptée à
                                 vos attentes.</p>
                         </div>
                         <div className={styles.contactTextSection}>
                             <h3>Posez vos questions à notre équipe</h3>
-                            <p className="justified-text">Vous avez des questions concernant nos services d'électricité
-                                à Nîmes ou vous souhaitez
+                            <p className="justified-text">Vous avez des questions concernant nos services ou vous
+                                souhaitez
                                 en savoir plus sur nos compétences et notre engagement envers la qualité et la sécurité
                                 ? Notre équipe se tient à votre disposition pour répondre à toutes vos interrogations.
                                 N'hésitez pas à nous contacter via le formulaire de contact ci-dessous. Nous nous ferons
@@ -96,8 +96,7 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactTextSection}>
                             <h3>Demandez un dépannage électrique</h3>
-                            <p className="justified-text">En cas de panne électrique ou d'urgence, notre équipe
-                                d'électriciens à Nîmes est prête à
+                            <p className="justified-text">En cas de panne électrique ou d'urgence, notre équipe est prête à
                                 intervenir rapidement pour diagnostiquer et réparer les problèmes électriques. Si vous
                                 avez besoin d'un dépannage, veuillez nous contacter en précisant la nature de l'urgence
                                 et vos coordonnées. Nous nous engageons à intervenir dans les meilleurs délais pour

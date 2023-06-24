@@ -82,7 +82,7 @@ export default function IndustrialProjects() {
                         <div className="support-page-text-block">
                             <h1>Réalisations de projets électriques industriels à Nîmes : une expertise à votre
                                 service</h1>
-                            <p>Nos électriciens à Nîmes sont spécialisés dans la <strong>réalisation de projets
+                            <p>Nos électriciens sont spécialisés dans la <strong>réalisation de projets
                                 électriques
                                 industriels</strong>. Nous mettons notre expertise et notre savoir-faire au service des
                                 entreprises pour leur fournir des solutions électriques adaptées et performantes.
@@ -118,7 +118,7 @@ export default function IndustrialProjects() {
                 <section>
                     <div className="secondary-section-padding">
                         <div className="support-page-text-block">
-                            <p>Faites confiance à notre équipe d'électriciens à Nîmes pour réaliser vos <strong>projets
+                            <p>Faites confiance à notre équipe pour réaliser vos <strong>projets
                                 électriques industriels</strong>. Notre expertise et notre savoir-faire vous
                                 garantissent des
                                 installations sécurisées et performantes, adaptées à vos besoins spécifiques. N'hésitez
@@ -135,8 +135,7 @@ export default function IndustrialProjects() {
                             <p>Pour en savoir plus sur nos services et obtenir un devis personnalisé, contactez-nous dès
                                 maintenant. Nous serons ravis de vous aider à concrétiser vos projets électriques
                                 industriels et de contribuer à la performance et à la sécurité de votre entreprise.
-                                Faites le choix d'une entreprise expérimentée et sérieuse pour assurer le succès de vos
-                                <strong>installations électriques à Nîmes</strong>.</p>
+                                Faites le choix d'une entreprise expérimentée et sérieuse pour assurer le succès de vos projets.</p>
                         </div>
                     </div>
                 </section>
